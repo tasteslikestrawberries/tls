@@ -28,3 +28,5 @@ particlesJS("particles-js",
          { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; }
           requestAnimationFrame(update); };
  requestAnimationFrame(update);;
+
+ /*myfirstjscode*/
