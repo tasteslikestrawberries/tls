@@ -29,4 +29,4 @@ particlesJS("particles-js",
           requestAnimationFrame(update); };
  requestAnimationFrame(update);;
 
- /*myfirstjscode*/
+ /**/
