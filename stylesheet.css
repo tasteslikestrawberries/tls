@@ -162,7 +162,7 @@ canvas{ display: block; vertical-align: top; }
   
 }
 
-/* Dropdown button on hover & focus (????) */
+/* Dropdown button on hover & focus (what is focus???) */
 .dropbutton:hover {
   background-color: #dfdbdb;
 }
