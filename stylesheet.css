@@ -162,6 +162,10 @@ canvas{ display: block; vertical-align: top; }
      border: none; 
      cursor: pointer; }
 
+.dropbutton:hover + .dropdown-content {
+  display: block;
+}
+
 .dropdown-content {display: none;
   font-family: arial;
   position: absolute;
@@ -185,6 +189,10 @@ canvas{ display: block; vertical-align: top; }
   color: rgb(0, 0, 0); 
   background: rgb(255, 255, 255); 
   border: 1px solid rgb(0, 0, 0);
+ }
+
+ .dropdown-content:hover {
+   display: block;
  }
 
 
