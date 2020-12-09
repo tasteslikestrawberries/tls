@@ -1,57 +1,97 @@
 <html>
-  <head>
-  <h1>just a project...</h1>
+  <head>    
+  
+
+
     <link rel="stylesheet" href="stylesheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  
   <body>
-    <div class="topnav">
-  <a class="active" href="index.html">home</a> &nbsp &nbsp &nbsp
-  <a href="#news">news</a>  &nbsp &nbsp &nbsp
-  <a href="login.html">login</a>  &nbsp &nbsp &nbsp
-  <a href="#about">about</a>
-</div>
-   
+
   
-   
-<form class="loginform">
+    <div class="topnav">
+
+      <a href="index.html" style="color:#000000;">ORIGINAL CONTENT</a> &nbsp &nbsp &nbsp
+      <a href="#news">BLOG</a>  &nbsp &nbsp &nbsp
+      <a href="login.html">LOGIN</a>  &nbsp &nbsp &nbsp
+      <a href="#contact">ABOUT</a>
+
+      <a id="firstsocialnetwork" href="http://www.twitter.com"><img  src='https://i.ibb.co/sH0qP8x/download.png' ></a> &nbsp; &nbsp;
+    
+    <a href="http://www.instagram.com"><img  src='https://i.ibb.co/bz8CK56/c2818c6d5d111f61846fbc878bc51b5e.png' /></a>
+
+
+    </div>
+
+ 
+  
+<div id="particleContainer">
+  <div id="particles-js" >
+      <h1>just a project...   </h1>
+  </div>
+</div>
+ 
+<div 
+  class="dropdown-container" 
+>
+  <button class="dropbutton"><b>...</b></button>
+  <div id="dropdown" class="dropdown-content">
+    <a href="#">ORIGINAL CONTENT</a>
+    <a href="#">BLOG</a>
+    <a href="login.html">LOGIN</a>
+    <a href="#">ABOUT</a>
+    <a href="#">LINK 5</a>
+    <a href="#">ANOTHER LINK</a>
+    <a href="#">LINK LINK LINK</a>
+  </div>
+</div>
+  
+  
+      <form class="loginform">
         
-  <form action="userpage.html" method="post">
-     <ul class="form">
-      <div class="username">
-        <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" required>
-       <br>
-        <label for="password"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password"required>
-       </ul>
-       <br>
-    
-        <button type="submit">Login</button>
-        <label>
+        <form action="#" method="post">
+          <ul class="form">
+            <div class="username">
+              <label for="username"><b>Username</b></label>
+              <input type="text" name="Username" placeholder="Enter Username" required>
+             <br>
+              <label for="password"><b>Password</b></label>
+              <input type="password" name="Password" placeholder="Enter Password"required>
+             </ul>
+             <br>
           
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-      </div>
+              <input type="button" value="Login" name="Login" onclick="validate()">
+              
+              
+            
+          
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              
+            </div>
+      
+            <div class="psw">Forgot <a href="" target="popup"
+              onclick="window.open('forgotpassword.html','popup','width=400,height=400'); return false;"
+          >password</a>?
+            </div>
+          </form>
+  
+  
 
-      <div class="psw">Forgot <a href="" target="popup"
-        onclick="window.open('forgotpassword.html','popup','width=400,height=400'); return false;"
-    >password</a>?
-      </div>
-    </form>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <script src="particles.js"></script>
 
-    
+  <script src="login.js"></script>
   </body>
   
   <br>
   <footer>
-    
-<ul class="social-icons">
-    <a href="http://www.facebook.com"><img src='https://cdn0.iconfinder.com/data/icons/popular-social-media-colored/48/JD-04-512.png' /></a>
-  
-  <a href="http://www.instagram.com"><img src='https://icons-for-free.com/iconfiles/png/512/instagram+button+instagram+logo+social+media+icon-1320190502007422654.png' /></a>
-  
-</ul>
+    made by Anja
+
 </footer>
   
 </html>
+  
+   
+
+
