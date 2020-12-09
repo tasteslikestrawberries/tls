@@ -7,3 +7,4 @@ alert ("Login successfully");
 window.location = "success.html"; // Redirecting to other page.
 return false;
 }
+}
