@@ -48,9 +48,6 @@ h1 {
  
 }
 
-a {
- 
-}
 
 .topnav a:link {
   color: rgb(133, 122, 122);
@@ -70,7 +67,7 @@ a {
 .topnav { 
   font-family: Arial;
   background-color: rgb(255, 255, 255);
-  color: rgb(105, 96, 96)
+  color: rgb(105, 96, 96);
   text-align: left;
   font-weight: bold;
   font-size: 25px;
