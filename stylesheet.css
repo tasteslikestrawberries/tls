@@ -231,6 +231,7 @@ canvas{ display: block; vertical-align: top; }
 .photoContainer {
   background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
   background-attachment:fixed;
+  border: 1px;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -243,6 +244,7 @@ canvas{ display: block; vertical-align: top; }
 
 .photo {
   width:100%;
+  border: 1px solid black;
 }
 .photoTitle1 {
   display:inline-block;
