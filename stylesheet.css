@@ -94,7 +94,12 @@ h1 {
   
  
 
-footer {font-family: arial;
+footer {
+  width: 50vw;
+  margin-left: -15vw;
+  margin-right: 25vw;
+  
+  font-family: arial;
   text-align: center;
   font-size: 16px;
 }
@@ -153,7 +158,9 @@ canvas{ display: block; vertical-align: top; }
    
 /*DROP DOWN MENU*/
 
-.dropdown-container { position:relative; }
+.dropdown-container { 
+  position:relative;
+  z-index: 100; }
 
 .dropbutton { background-color: rgb(0, 0, 0);
    color: white; 
@@ -199,3 +206,60 @@ canvas{ display: block; vertical-align: top; }
 
 
 .show { display: block; }
+
+/*GALLERY LOGIN PAGE */
+.gallery {
+  display: inline-grid;
+  width: 50vw;
+  margin-left: 15vw;
+  margin-right: 25vw;
+  column-gap: 190px; 
+  row-gap: 40px;
+  font-family: 'Amatic SC';
+  text-shadow: 4px 4px 4px #aaa;
+  
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: stretch;
+  align-items: stretch;
+  font-size: 20px;
+  text-align: justify;
+  padding: 40px;
+  
+}
+
+.photoContainer {
+  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-attachment:fixed;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  font-family: 'Amatic SC';
+  width:200px;
+  height: 200px;
+
+}
+
+.photo {
+  width:100%;
+}
+.photoTitle1 {
+  display:inline-block;
+  padding: 10px;
+  text-align: center; 
+  font-weight: bold;
+}
+
+.photoTitle2 {
+  display:inline-block;
+  padding: 10px;
+  text-align: center; 
+  font-weight: bold;
+}
+
+#headerarticle {
+
+  font-size: 25px;
+ 
+}
