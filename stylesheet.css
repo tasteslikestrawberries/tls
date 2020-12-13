@@ -56,7 +56,8 @@ h1 {
 }
 
 
-.topnav a:link {
+
+.topnav a:link, a:visited {
   color: rgb(133, 122, 122);
   font-family: arial;
   font-size: 12px;
@@ -81,6 +82,7 @@ h1 {
   height: 80px;
   display: flex;
   margin-top: 20px;
+  text-decoration: none;
   }
 
   .topnav img {
@@ -102,13 +104,11 @@ h1 {
  
 
 footer {
-  width: 50vw;
-  margin-left: -15vw;
-  margin-right: 25vw;
-  
   font-family: arial;
   text-align: center;
   font-size: 16px;
+  z-index: 500;
+
 }
 
 
@@ -214,9 +214,11 @@ canvas{ display: block; vertical-align: top; }
 
 .show { display: block; }
 
-/*GALLERY LOGIN PAGE */
-.gallery {
-  display: inline-grid;
+/*SHOP */
+
+
+.shop {
+ display: inline-grid;
   width: 50vw;
   margin-left: 15vw;
   margin-right: 25vw;
@@ -224,7 +226,6 @@ canvas{ display: block; vertical-align: top; }
   row-gap: 40px;
   font-family: 'Amatic SC';
   text-shadow: 4px 4px 4px #aaa;
-  
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-items: stretch;
@@ -233,42 +234,169 @@ canvas{ display: block; vertical-align: top; }
   text-align: justify;
   padding: 40px;
   
+  
 }
 
-.photoContainer {
+.shop-item {
   background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
   background-attachment:fixed;
   border: 1px;
-  padding: 40px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content:center;
   font-family: 'Amatic SC';
   width:200px;
   height: 200px;
-
-}
-
-.photo {
-  width:100%;
   border: 1px solid black;
+
 }
-.photoTitle1 {
+
+
+.shop-item-title {
   display:inline-block;
   padding: 10px;
   text-align: center; 
   font-weight: bold;
+  font-size: 30px;
 }
 
-.photoTitle2 {
+.shop-item-details {
   display:inline-block;
   padding: 10px;
-  text-align: center; 
+  text-align: center;
+  font-family: Amatic SC; 
+  font-size: 30px;
   font-weight: bold;
 }
 
-#headerarticle {
 
-  font-size: 25px;
- 
+.shop-item-button {
+  width: 20%;
+  height: 50%;
+  margin-top: 5px;
+  cursor: pointer;
+
 }
+
+/*CART*/
+.cart {
+  position: relative;
+  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-attachment:fixed;
+  font-family: Amatic SC;
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  width: 70vw;
+  margin-left: 5vw;
+  margin-right: 25vw;
+}
+
+
+.cart-header {
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  
+}
+
+.cart-row {
+  display: flex;
+  font-weight: bold;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Amatic SC;
+} 
