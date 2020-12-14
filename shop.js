@@ -10,6 +10,7 @@ function ready() {
         shopItemButtons[i].addEventListener('click', addToCartClicked)
     }
 
+
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         removeCartItemButtons[i].addEventListener('click', removeCartItem)
