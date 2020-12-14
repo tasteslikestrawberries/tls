@@ -353,10 +353,12 @@ canvas{ display: block; vertical-align: top; }
   border: none;
   border-radius: .3em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn-danger:hover {
   background-color: #CC4C4C;
+  cursor: pointer;
 }
 
 .cart-quantity-input {
@@ -404,4 +406,5 @@ canvas{ display: block; vertical-align: top; }
   font-size: 30px;
   font-weight: bold;
   font-family: Amatic SC;
+  cursor: pointer;
 } 
