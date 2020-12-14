@@ -50,8 +50,9 @@ h1 {
 }
 
 #headerarticle {
-
-  font-size: 25px;
+  font-family: Amatic SC;
+  font-size: 35px;
+  font-weight: bold;
  
 }
 
