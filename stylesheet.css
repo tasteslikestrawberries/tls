@@ -218,21 +218,22 @@ canvas{ display: block; vertical-align: top; }
 
 
 .shop {
- display: inline-grid;
-  width: 50vw;
-  margin-left: 15vw;
-  margin-right: 25vw;
-  column-gap: 190px; 
-  row-gap: 40px;
-  font-family: 'Amatic SC';
-  text-shadow: 4px 4px 4px #aaa;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  justify-items: stretch;
-  align-items: stretch;
-  font-size: 20px;
-  text-align: justify;
-  padding: 40px;
+ display: grid;
+ width: 80vw;
+ 
+ margin-left: 10vw;
+ margin-right: 25vw;
+ column-gap: 40px; 
+ row-gap: 40px;
+ font-family: 'Amatic SC';
+ text-shadow: 4px 4px 4px #aaa;
+ grid-template-rows: 1fr 1fr 1fr;
+ grid-template-columns: repeat(3, minmax(0, 1fr));
+ justify-items: stretch;
+ align-items: stretch;
+ font-size: 20px;
+ text-align: justify;
+ padding: 40px;
   
   
 }
@@ -249,7 +250,8 @@ canvas{ display: block; vertical-align: top; }
   width:200px;
   height: 200px;
   border: 1px solid black;
-
+  text-align: center;
+  font-weight: bold;
 }
 
 
@@ -259,6 +261,7 @@ canvas{ display: block; vertical-align: top; }
   text-align: center; 
   font-weight: bold;
   font-size: 30px;
+ 
 }
 
 .shop-item-details {
@@ -268,6 +271,7 @@ canvas{ display: block; vertical-align: top; }
   font-family: Amatic SC; 
   font-size: 30px;
   font-weight: bold;
+  
 }
 
 
@@ -276,7 +280,7 @@ canvas{ display: block; vertical-align: top; }
   height: 50%;
   margin-top: 5px;
   cursor: pointer;
-
+  align-self: center;
 }
 
 /*CART*/
@@ -289,8 +293,9 @@ canvas{ display: block; vertical-align: top; }
   text-align: justify;
   padding: 20px;
   width: 70vw;
-  margin-left: 5vw;
-  margin-right: 25vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  
 }
 
 
