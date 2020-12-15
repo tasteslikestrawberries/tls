@@ -96,4 +96,5 @@ function updateCartTotal() {
         total += price * quantity
     }
 
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + Math.round(total * 100) / 100
+    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + Math.round(total * 100) / 100;
+}
