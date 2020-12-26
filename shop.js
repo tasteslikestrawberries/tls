@@ -47,14 +47,7 @@ function quantityChanged(event) {
     updateCartTotal()
 }
 
-function purchaseClicked() {
-    alert('Thank you for your purchase!')
-    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
-    while(cartItemContainer.hasChildNodes()) {
-        cartItemContainer.removeChild(cartItemContainer.firstChild)
-    }
-    updateCartTotal()
-}
+
 
 function addItemToCart(itemName, imageUrl, priceString) {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
