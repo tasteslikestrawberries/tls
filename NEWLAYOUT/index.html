@@ -5,8 +5,9 @@
         <link rel="stylesheet" href="css.css">
         <script src="script.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Bad+Script&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -58,34 +59,48 @@
 </div>
 
 
-<div class="paper"><center><b><em><font size="40px">Journal</font></em></b></center><br><br>
+<div class="paper">
+
+<center>
+  <br>
+  <h2 class="quotes">First , think .</h2>
+  <h2 class="quotes"> Second , dream .</h2>
+  <h2 class="quotes">Third , believe .</h2>
+  <h2 class="quotes">And , finally ...</h2>
+  <h2 class="quotes">... Dare .</h2>
+
+</center>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+(function() {
+
+    var quotes = $(".quotes");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+    }
+
+    showNextQuote();
+
+})();
+</script>
   
-  <b>January 10, 2021.</b> <br>
-  ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-   Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-  pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-  vulputate eget, arcu...<br><br><br><br>
-  <b>January 8, 2021.</b> <br>
-  ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-   Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-  pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-  vulputate eget, arcu...<br><br>
-  <b>January 6, 2021.</b> <br>
-  ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-   Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-  pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-  vulputate eget, arcu...<br><br><br><br>
-  <b>January 1, 2021.</b> <br>
-  ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-   Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-  pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-  vulputate eget, arcu...<br><br>
+  
+ 
 
 </div>
 
 
 
 <div class="secondContainer">
+  
+
 
 </div>
 <div class="thirdContainer">
@@ -93,25 +108,50 @@
     <br>
     <center><b><font size="30px">Projects</font></b></center>
 <br><br>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-   Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-  pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-  vulputate eget, arcu..</div>
+
+
+
+  <div class="secondPaper">
+  
+    <b>January 10, 2021.</b> <br>
+    ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+     Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+    pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+    vulputate eget, arcu...<br><br><br><br>
+    <b>January 8, 2021.</b> <br>
+    ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+     Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+    pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+    vulputate eget, arcu...<br><br><br>
+    <b>January 6, 2021.</b> <br><br><br>
+    ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+     Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+    pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+    vulputate eget, arcu...<br><br><br><br>
+    <b>January 1, 2021.</b> <br><br><br>
+    ...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+     Cum sociis natoque pena tibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+    pellentesque eu, pretium quis,sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+    vulputate eget, arcu...
+  
+  </div>
+
+</div>
 
   <div class=fourthContainer>
-  <center><b><font size="30px">Gallery</font></b></center>
+  <center><b><font size="30px">Vision Board</font></b></center>
 <br><br><br><br><br>
 
 
 <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
-<img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
+<img src="https://i.pinimg.com/originals/3c/76/10/3c7610accca6bc513907ad327775469d.jpg">
 <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
 <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
  <br><br>
 
  <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
  <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
- <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
+ <img src="https://i.pinimg.com/originals/3c/76/10/3c7610accca6bc513907ad327775469d.jpg">
  <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
 
 
