@@ -1,0 +1,186 @@
+.headContainer {
+    position: relative;
+    border: 10px solid white;
+    background-image: url('ferris.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial;
+    margin-left: 1px;
+  
+    
+}
+
+.headContainer img {
+    width:25px;
+    height:20px;
+   border: none;
+   
+  }
+
+  .headContainer img:hover {
+    opacity: 0.5;
+   
+  }
+
+  .headContainer:hover {
+
+    text-decoration: none;
+  }
+
+
+#headline {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+#headlineText {
+    font-size: 20px;
+}
+
+.headlinks {
+    display: relative;
+    margin-right: 850px;
+    margin-bottom: 480px;
+}
+
+#headlink {
+    display: inline-block;
+    color: white;
+    font-family: Arial;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5cm;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    background-color:rgb(67, 69, 70);
+}
+
+#headlink:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    color:blue;
+  
+
+}
+
+
+.paper{
+  position: absolute; /* Reposition logo from the natural layout */
+  margin-left: 50px;
+  margin-top: -440px;
+  width: 680px;
+  height: 600px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+  font-family: monospace;
+  border: 1px solid rgb(0, 0, 0);
+  z-index: 2;
+  overflow:scroll;
+  overflow-x:hidden;
+  opacity: 0.5;
+  padding: 25px;
+  
+}
+
+.secondContainer{
+  position: absolute; /* Reposition logo from the natural layout */
+  margin-top: -20px;
+  margin-left: 10px;
+  width: 1431.5px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+  font-family: monospace;
+  border: 1px solid rgb(0, 0, 0);
+  z-index: 0;
+  padding: 25px;
+  
+}
+
+.thirdContainer{
+  position: relative; /* Reposition logo from the natural layout */
+  margin-top: 250px;
+  margin-left: 10px;
+  width: 1381.2px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("ferris.png");
+  color: white;
+  font-size: 16px;
+  font-family: Arial;
+  border: 1px solid rgb(0, 0, 0);
+  z-index: 3;
+  border: 1px solid white;
+  padding: 50px;
+  
+}
+
+.fourthContainer{
+  position: relative; /* Reposition logo from the natural layout */
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 1376px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: Arial;
+  border: 1px solid rgb(0, 0, 0);
+  z-index: 3;
+  border: 3px dotted rgb(0, 0, 0);
+  padding: 50px;
+
+}
+    
+    
+    .socialnetworks {
+        display: inline-block;
+    }
+
+  
+
+    /*MENU BUTTON*/
+    .menu {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 1250px;
+        
+      }
+
+      .menu:hover
+    {
+        opacity: 0.7;
+    }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      /* Rotate first bar */
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+      }
+      
+      /* Fade out the second bar */
+      .change .bar2 {
+        opacity: 0;
+      }
+      
+      /* Rotate last bar */
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+      }
+
+    
+    
