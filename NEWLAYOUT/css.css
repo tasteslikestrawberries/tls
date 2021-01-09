@@ -106,6 +106,7 @@
   z-index: 2;
   overflow:scroll;
   overflow-x:hidden;
+  scrollbar-color: rgb(186, 11, 230); /* NE RADI (WHY?)*/
   opacity: 0.5;
   padding: 25px;
   
