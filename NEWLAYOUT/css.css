@@ -136,6 +136,12 @@
   padding: 50px;
 
 }
+
+.fourthContainer img {
+  margin-left:80px;
+  padding: 20px;
+  border: 1px solid black;
+}
     
     
     .socialnetworks {
