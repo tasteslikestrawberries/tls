@@ -1,6 +1,5 @@
 .headContainer {
     position: relative;
-    border: 10px solid white;
     background-image: url('ferris.png');
     background-size:100%;
     background-repeat: no-repeat;
@@ -22,13 +21,13 @@
    
   }
 
+
   .headContainer img:hover {
     opacity: 0.5;
    
   }
 
   .headContainer:hover {
-
     text-decoration: none;
   }
 
@@ -169,7 +168,7 @@ font-size: 14;}
 }
 
 
-/* Flashing */
+/* Flash image effect */
 .fourthContainer img:hover {
 	opacity: 1;
 	-webkit-animation: flash 1.5s;
@@ -239,4 +238,81 @@ font-size: 14;}
       }
 
     
+    /*DROPDOWN CONTENT*/
+
+    #dropdown-content {
+      display: none;
+      position:absolute;
+      margin: 0;
+      background-color: snow;
+      opacity: 0.9;
+      height:500px;
+      margin-top: 10px;
+      margin-left: 0px;
+      width: 1480;
+      z-index: 50;
+      font-family: arial;
+      font-size: 50px;
+      color: black;
+      animation: fadeIn ease 4s;
     
+      }
+      @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:0.9;}
+      }
+      
+    
+ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  text-align: center;
+  text-decoration: none;
+  animation: fadeIn ease 4s;
+    
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:0.9;}
+}
+
+
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 35px 0;
+  
+}
+
+
+a {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  height: 2.5px;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  
+}
+a:hover:after { 
+  width: 50%; 
+  left: 23%; 
+  
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
