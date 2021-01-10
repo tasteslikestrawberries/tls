@@ -1,6 +1,6 @@
 .headContainer {
     position: relative;
-    background-image: url('ferris.png');
+    background-image: url('/assets/ferris.png');
     background-size:100%;
     background-repeat: no-repeat;
     color: white;
@@ -114,7 +114,7 @@ font-size: 14;}
   width: 1381.2px;
   height: 800px;
   background-color: rgb(255, 255, 255);
-  background-image: url("ferris.png");
+  background-image: url("/assets/ferris.png");
   color: white;
   font-size: 16px;
   font-family: 'Allura';
@@ -131,7 +131,7 @@ font-size: 14;}
   margin-left: 10px;
   width: 1381.2px;
   height: 800px;
-  background-image: url('ferris.png');
+  background-image: url('/assets/ferris.png');
   background-size: 250%;
   background-repeat: no-repeat;
   font-size: 16px;
@@ -151,8 +151,8 @@ font-size: 14;}
 .quotes {display: none;}
 .quotePaper{
   position: absolute; /* Reposition logo from the natural layout */
-  margin-left: 430px;
-  margin-top: -30px;
+  margin-left: 400px;
+  margin-top: -70px;
   width: 530px;
   height: 250px;
   color:rgb(0, 0, 0);
@@ -166,29 +166,19 @@ font-size: 14;}
   
 }
 
-/* Flash image effect */
-.fourthContainer img:hover {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-  animation: flash 1.5s;
-  cursor: pointer;
+/* Gray Scale */
+.fourthContainer img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor:pointer;
 }
-@-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
+.fourthContainer:hover img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
-@keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
+
 
     
     .socialnetworks {
