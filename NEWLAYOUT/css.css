@@ -239,7 +239,7 @@ font-size: 14;}
       font-family: arial;
       font-size: 50px;
       color: black;
-      animation: fadeIn ease 4s;
+      animation: fadeIn ease 2s;
     
       }
       @keyframes fadeIn {
