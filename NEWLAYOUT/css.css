@@ -106,14 +106,20 @@
   background-color: rgb(0, 0, 0);
   color: white;
   font-family: 'Allura';
+  font-size: 20px; /*DATE FONT SIZE*/
   border: 1px solid rgb(0, 0, 0);
   z-index: 2;
-  overflow:scroll;
-  overflow-x:hidden;
-  scrollbar-color: rgb(0, 0, 0); /* NE RADI (WHY?)*/
+  overflow: scroll;
+  overflow-x: hidden; /* Hide vertical scrollbar */
   opacity: 0.5;
   padding: 25px;
+  border-radius: 3px 3px 3px 3px;
   
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 p {font-family: monospace;
@@ -143,7 +149,7 @@ font-size: 14;}
   position: relative; 
   margin-top: 20px;
   margin-left: 10px;
-  width: 1376px;
+  width: 1381.2px;
   height: 800px;
   background-image: url('ferris.png');
   background-size: 250%;
@@ -152,16 +158,41 @@ font-size: 14;}
   font-family: 'Allura';
   z-index: 3;
   padding: 50px;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  
   
 }
 
 .fourthContainer img {
   margin-left:80px;
-  padding: 20px;
-  border: 1px solid black;
+  opacity: 1;
 }
-    
+
+
+/* Flashing */
+.fourthContainer img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+  cursor: pointer;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
     
     .socialnetworks {
         display: inline-block;
