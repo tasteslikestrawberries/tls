@@ -14,7 +14,7 @@
 <div class="headContainer">
       <br>
       <br>
-    <div class="menu" value="button" onclick="dropDown(); menuFunction(this)">
+    <div id="menu" value="button" onclick="dropdown()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -67,43 +67,6 @@
 </div>
 </div>
 
-
-<div class="quotePaper">
-
-<center>
-  <br>
-  <h2 class="quotes">First , think .</h2>
-  <h2 class="quotes"> Second , dream .</h2>
-  <h2 class="quotes">Third , believe .</h2>
-  <h2 class="quotes">And , finally ...</h2>
-  <h2 class="quotes">... Dare .</h2>
-
-</center>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<script>
-(function() {
-
-    var quotes = $(".quotes");
-    var quoteIndex = -1;
-
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextQuote);
-    }
-
-    showNextQuote();
-
-})();
-</script>
-  
-  
- 
-
-</div>
 
 
 <div class="thirdContainer">
@@ -164,7 +127,42 @@
  <img src="https://media1.giphy.com/media/MaThe6p8WAKbf9NDDM/200_s.gif">
 
 
+ <div class="quotePaper">
 
+  <center>
+    <br>
+    <h2 class="quotes">First , think .</h2>
+    <h2 class="quotes"> Second , dream .</h2>
+    <h2 class="quotes">Third , believe .</h2>
+    <h2 class="quotes">And , finally ...</h2>
+    <h2 class="quotes">... Dare .</h2>
+  
+  </center>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+  <script>
+  (function() {
+  
+      var quotes = $(".quotes");
+      var quoteIndex = -1;
+  
+      function showNextQuote() {
+          ++quoteIndex;
+          quotes.eq(quoteIndex % quotes.length)
+              .fadeIn(2000)
+              .delay(2000)
+              .fadeOut(2000, showNextQuote);
+      }
+  
+      showNextQuote();
+  
+  })();
+  </script>
+    
+    
+   
+  
+  </div>
 </div>
 
     </body>

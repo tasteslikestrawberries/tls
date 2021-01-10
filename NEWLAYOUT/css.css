@@ -75,25 +75,6 @@
 
 }
 
-.quotePaper{
-  position: absolute; /* Reposition logo from the natural layout */
-  margin-left: 820px;
-  margin-top: -215px;
-  width: 530px;
-  height: 250px;
-  color:rgb(255, 255, 255);
-  font-srgb(255, 255, 255);
-  font-family: 'Allura';
-  font-size: 30px;
-  z-index: 10;
-  padding: 25px;
-  opacity: 0.5;
-  border-radius: 60px 60px 60px 60px; 
-  
-}
-
-.quotes {display: none;}
-
 
 
 .secondPaper{
@@ -167,6 +148,23 @@ font-size: 14;}
   opacity: 1;
 }
 
+.quotes {display: none;}
+.quotePaper{
+  position: absolute; /* Reposition logo from the natural layout */
+  margin-left: 430px;
+  margin-top: -30px;
+  width: 530px;
+  height: 250px;
+  color:rgb(0, 0, 0);
+  font-srgb(255, 255, 255);
+  font-family: 'Allura';
+  font-size: 50px;
+  z-index: 10;
+  padding: 25px;
+  opacity: 0.5;
+  border-radius: 60px 60px 60px 60px; 
+  
+}
 
 /* Flash image effect */
 .fourthContainer img:hover {
@@ -200,14 +198,14 @@ font-size: 14;}
   
 
     /*MENU BUTTON*/
-    .menu {
+    #menu {
         display: inline-block;
         cursor: pointer;
         margin-right: 1250px;
         
       }
 
-      .menu:hover
+      #menu:hover
     {
         opacity: 0.7;
     }
