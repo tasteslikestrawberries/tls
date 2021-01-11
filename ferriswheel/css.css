@@ -236,7 +236,7 @@ font-size: 14;}
       0% {opacity:0;}
       100% {opacity:0.9;}
       }
-      
+
     
 ul { 
   margin: 150px auto 0; 
@@ -252,7 +252,6 @@ ul {
 0% {opacity:0;}
 100% {opacity:0.9;}
 }
-
 
 li { 
   display: table-cell; 
