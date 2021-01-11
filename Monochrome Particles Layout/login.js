@@ -1,4 +1,4 @@
-// Below function Executes on click of login button.
+// Below function Executes onclick of login button.
 function validate(event){
 var username = document.getElementById("Username").value;
 var password = document.getElementById("Password").value;
