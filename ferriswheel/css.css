@@ -1,6 +1,6 @@
 .headContainer {
     position: relative;
-    background-image: url('/assets/ferris.png');
+    background-image: url('assets/ferris.png');
     background-size:100%;
     background-repeat: no-repeat;
     color: white;
@@ -113,7 +113,7 @@ font-size: 14;}
   width: 1381.2px;
   height: 800px;
   background-color: rgb(255, 255, 255);
-  background-image: url("/assets/ferris.png");
+  background-image: url("assets/ferris.png");
   color: white;
   font-size: 16px;
   font-family: 'Allura';
@@ -130,7 +130,7 @@ font-size: 14;}
   margin-left: 10px;
   width: 1381.2px;
   height: 800px;
-  background-image: url('/assets/ferris.png');
+  background-image: url('assets/ferris.png');
   background-size: 250%;
   background-repeat: no-repeat;
   font-size: 16px;
