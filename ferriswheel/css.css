@@ -113,7 +113,8 @@ font-size: 14;}
   width: 1381.2px;
   height: 800px;
   background-color: rgb(255, 255, 255);
-  background-image: url("assets/ferris.webp");
+  background-image: url('assets/ferris.webp');
+  background-repeat: no-repeat;
   color: white;
   font-size: 16px;
   font-family: 'Allura';
@@ -296,5 +297,6 @@ footer {
   font-size: 20px;
   font-weight: bold;
   z-index: 20;
+  text-align: center;
 
 }
