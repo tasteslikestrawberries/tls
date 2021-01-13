@@ -118,10 +118,11 @@
     /*MENU BUTTON*/
     #menu {
       cursor: pointer;
+      display: inline-block;
       position: relative;
-     left: 200px;
-     top: 50px;
-     z-index: 500;
+     left: 180px;
+     bottom: -40px;
+    
      
 
         
@@ -160,7 +161,7 @@
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 65px;
+      top: 90px;
       left: 150px;
       height: 600px;
       width: 1000px;
