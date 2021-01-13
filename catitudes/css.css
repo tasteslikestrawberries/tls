@@ -10,8 +10,8 @@
     height: 75vh;
     width: 75vw;
     
-    left: 20vh;
-    top: 5vh;
+    left: 100px;
+    top: 30px;
    
    
     
@@ -70,10 +70,11 @@
     position: relative;
     font-size: 20px;
     text-align:justify;
-    top: 8vh;
-    left: 27vw;
-    width: 40vw;
-    height: 50vh;
+    top: 50px;
+    left: 400px;
+    width: 600px;
+    height: 400px;
+    
     background: rgb(236, 236, 236)
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -86,11 +87,11 @@
 
 #signature{
   position: relative;
-  bottom: 24vh;
-  left: 20vh;
+  bottom: 200px;
+  left: 150px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 60px;
+  font-size: 50px;
   -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 8s; /* Firefox < 16 */
      -ms-animation: fadein 8s; /* Internet Explorer */
