@@ -121,7 +121,8 @@
       display: inline-block;
       position: relative;
      left: 180px;
-     bottom: -40px;
+     bottom: -60px;
+     z-index: 100;
     
      
 
@@ -161,9 +162,9 @@
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 90px;
+      top: 110px;
       left: 150px;
-      height: 600px;
+      height: 550px;
       width: 1000px;
       padding-left: 50px;
       z-index: 50;
