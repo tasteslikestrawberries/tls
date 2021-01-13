@@ -38,7 +38,7 @@
     height: 25px;
     width: 30px;
     position: relative;
-    top: 9vh;
+    top: 5vh;
     z-index: 2000;
     left: 75vw;
 
@@ -135,6 +135,7 @@
       cursor: pointer;
       position: relative;
      left: 10vh;
+     bottom: 5vh;
      
 
         
@@ -173,7 +174,8 @@
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      height: 70vh;
+      top: 10vh;
+      height: 75vh;
       width: 75vw;
       z-index: 50;
       font-family: arial;
