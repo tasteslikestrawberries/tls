@@ -124,7 +124,7 @@ a:link, a:visited, a:hover, a:active {
       display: inline-block;
       position: relative;
      left: 300px;
-     bottom: -20px;
+     bottom: -30px;
      z-index: 900;
     
   
@@ -163,10 +163,10 @@ a:link, a:visited, a:hover, a:active {
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 70px;
-      left: 200px;
-      height: 600px;
-      width: 1000px;
+      top: 80px;
+      left: 150px;
+      height: 620px;
+      width: 1200px;
       padding-left: 50px;
       z-index: 50;
       font-family: arial;
