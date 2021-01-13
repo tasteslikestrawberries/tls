@@ -12,11 +12,10 @@ a:link, a:visited, a:hover, a:active {
     font-size: 15px;
     font-family:Arial;
     height: 600px;
-    width: 800px;
-    
+    width: 900px;
     left: 300px;
     background-position: -160px;
-    top: 20px;
+    top: -10px;
     
 }
 
