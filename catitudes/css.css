@@ -5,7 +5,7 @@ a:link, a:visited, a:hover, a:active {
 .headContainer {
     position: relative;
     background-image: url('assets/Catitudes.webp');
-    background-size:120%;
+    background-size:130%;
     background-repeat: no-repeat;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -13,11 +13,10 @@ a:link, a:visited, a:hover, a:active {
     font-family:Arial;
     height: 600px;
     width: 800px;
-    margin-left: 150px;
-    padding-right: 200px;
-    background-position: -150px;
-    top: 60px;
-   
+    
+    left: 300px;
+    background-position: -160px;
+    top: 20px;
     
 }
 
@@ -42,12 +41,10 @@ a:link, a:visited, a:hover, a:active {
 
 #headline {
   position: relative;
-  top: -20px;
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 63px;
-  
+    font-size: 65px;
 }
 
 #headline>span {
@@ -60,8 +57,8 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     font-size: 20px;
     text-align:justify;
-    top: 10px;
-    left: 300px;
+    top: 30px;
+    left: 230px;
     width: 600px;
     height: 400px;
     margin-bottom: 10px;
@@ -77,11 +74,11 @@ a:link, a:visited, a:hover, a:active {
 
 #signature{
   position: relative;
-  bottom: 220px;
-  left: 250px;
+  bottom: 200px;
+  left: 220px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 40px;
+  font-size: 45px;
   -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 8s; /* Firefox < 16 */
      -ms-animation: fadein 8s; /* Internet Explorer */
@@ -126,13 +123,11 @@ a:link, a:visited, a:hover, a:active {
       cursor: pointer;
       display: inline-block;
       position: relative;
-     left: 180px;
-     bottom: -60px;
-     z-index: 100;
+     left: 300px;
+     bottom: -20px;
+     z-index: 900;
     
-     
-
-        
+  
       }
       
       .bar1, .bar2, .bar3 {
@@ -168,8 +163,8 @@ a:link, a:visited, a:hover, a:active {
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 80px;
-      left: 150px;
+      top: 70px;
+      left: 200px;
       height: 600px;
       width: 1000px;
       padding-left: 50px;
@@ -240,105 +235,4 @@ a:hover:after {
 	ul {
 		margin-top: 40px;
 	}
-}
-
-/*/
-///////////////////////////////////////////// // Dots /////////////////////////////////////////////
-/*/
-.dotstyle {
-  position: relative;
-  display: inline-block;
-  cursor: default;
-  -webkit-touch-callout: none;
-  user-select: none;
-}
-.dotstyle li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0 16px;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-.dotstyle a {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20%;
-  outline: none;
-  border-radius: 50%;
-  background-color: rgba(196, 77, 72, 1);
-  text-indent: -999em;
-  cursor: pointer;
-  position: absolute;
-}
-.dotstyle a:focus {
-  outline: none;
-}
-.dotstyle-dotmove li:last-child {
-  position: absolute;
-  left: 0;
-  margin: 0;
-  width: 48px;
-  transition: transform 0.3s ease;
-}
-.dotstyle-dotmove li:last-child:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: -1px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: rgba(196, 77, 72, 1);
-  transform: translateX(-50%);
-}
-.dotstyle-dotmove li a {
-  transition: background-color 0.3s ease;
-}
-.dotstyle-dotmove li a:hover, .dotstyle-dotmove li a:focus {
-  background-color: rgba(196, 77, 72, 0.5);
-}
-.dotstyle-dotmove li.is-current:nth-child(1) ~ li:last-child {
-  transform: translateX(0%);
-}
-.dotstyle-dotmove li.is-current:nth-child(2) ~ li:last-child {
-  transform: translateX(100%);
-}
-.dotstyle-dotmove li.is-current:nth-child(3) ~ li:last-child {
-  transform: translateX(200%);
-}
-.dotstyle-dotmove li.is-current:nth-child(4) ~ li:last-child {
-  transform: translateX(300%);
-}
-.dotstyle-dotmove li.is-current:nth-child(5) ~ li:last-child {
-  transform: translateX(400%);
-}
-.dotstyle-dotmove li.is-current:nth-child(6) ~ li:last-child {
-  transform: translateX(500%);
-}
-.item {
-  position: absolute;
-  overflow: hidden;
-  position: relative;
-  bottom: -115px;
-  left: -435px;
-  
-}
-
-.item ul {
-  margin-top: 0;
-}
-.item:nth-child(4n), .item:nth-child(4n-3) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.navigation-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  position: relative;
-  top: -80px;
-  
 }
