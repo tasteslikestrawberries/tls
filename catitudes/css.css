@@ -17,6 +17,7 @@ a:link, a:visited, a:hover, a:active {
     padding-right: 200px;
     background-position: -150px;
     top: 60px;
+   
     
 }
 
@@ -41,11 +42,12 @@ a:link, a:visited, a:hover, a:active {
 
 #headline {
   position: relative;
-  top: 20px;
+  top: -20px;
   text-align: center;
   color: rgb(0, 0, 0);
-    font-family: Arial;
-    font-size: 50px;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 63px;
+  
 }
 
 #headline>span {
@@ -58,7 +60,7 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     font-size: 20px;
     text-align:justify;
-    top: 100px;
+    top: 10px;
     left: 300px;
     width: 600px;
     height: 400px;
@@ -75,11 +77,11 @@ a:link, a:visited, a:hover, a:active {
 
 #signature{
   position: relative;
-  bottom: 150px;
+  bottom: 220px;
   left: 250px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 50px;
+  font-size: 40px;
   -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 8s; /* Firefox < 16 */
      -ms-animation: fadein 8s; /* Internet Explorer */
@@ -168,7 +170,7 @@ a:link, a:visited, a:hover, a:active {
       opacity: 0.9;
       top: 80px;
       left: 150px;
-      height: 650px;
+      height: 600px;
       width: 1000px;
       padding-left: 50px;
       z-index: 50;
