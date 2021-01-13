@@ -7,9 +7,8 @@
     text-align: center;
     font-size: 15px;
     font-family:Arial;
-    height: 75vh;
-    width: 75vw;
-    
+    height: 600px;
+    width: 1024px;
     left: 100px;
     top: 30px;
    
@@ -54,7 +53,8 @@
 
 #headline {
   position: relative;
-  margin-bottom: 20px;
+  bottom: 30px;
+  text-align: center;
   color: rgb(0, 0, 0);
     font-family: Arial;
     font-size: 50px;
@@ -74,7 +74,7 @@
     left: 400px;
     width: 600px;
     height: 400px;
-    
+    margin-bottom: 50px;
     background: rgb(236, 236, 236)
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
