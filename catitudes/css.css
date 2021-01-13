@@ -1,7 +1,7 @@
 .headContainer {
     position: relative;
     background-image: url('assets/Catitudes.webp');
-    background-size:98%;
+    background-size:110%;
     background-repeat: no-repeat;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -10,7 +10,8 @@
     height: 600px;
     width: 1024px;
     left: 100px;
-    top: 30px;
+    top: 50px;
+  
    
    
     
@@ -33,27 +34,11 @@
     text-decoration: none;
   }
 
-  .socialnetworks img {
-    height: 25px;
-    width: 30px;
-    position: relative;
-    top: 5vh;
-    z-index: 2000;
-    left: 75vw;
 
-    
-  
-}
-.socialnetworks img:hover {
-  opacity: 0.5;
-  cursor:pointer;
-  
-
-}
 
 #headline {
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
   text-align: center;
   color: rgb(0, 0, 0);
     font-family: Arial;
@@ -88,7 +73,7 @@
 #signature{
   position: relative;
   bottom: 200px;
-  left: 150px;
+  left: 250px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
@@ -135,8 +120,9 @@
     #menu {
       cursor: pointer;
       position: relative;
-     left: 10vh;
-     bottom: 5vh;
+     left: 200px;
+     top: 20px;
+     z-index: 500;
      
 
         
@@ -175,9 +161,10 @@
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 10vh;
-      height: 75vh;
-      width: 75vw;
+      top: 65px;
+      left: 150px;
+      height: 550px;
+      width: 1140px;
       z-index: 50;
       font-family: arial;
       font-size: 40px;
