@@ -1,66 +1,76 @@
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-}
-
 .headContainer {
-    position: fixed;
-    width: 1024px;
-    height: 768px;
-    background-image: url('assets/Catitudes.webp');
-    background-position: 20px -50px 0 0;
+  position: relative;
+  background-image: url('assets/Catitudes.webp');
+  background-size:90%;
+  background-position: 0px -100 50 60 ;
+  background-repeat: no-repeat;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family:Arial;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -30px;
+  width: 1500px;
+  height: 600px;
+ 
   
-    background-size:130%;
-    background-repeat: no-repeat;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-family:Arial;
-    margin: auto;
-   
-    
-    
 }
 
+.socialNetworks {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  left: 100px;
+  top: 51px;
+ z-index: 40;
+  
+}
 
 
 #headline {
-  position: relative;
-  top: -50px;
-  left: 450px;
+position: relative;
+top: 70px;
+left: 50px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
-    font-size: 65px;
+  font-size: 65px;
 }
 
 #headline>span {
-  color: rgb(218, 2, 67);
- 
+color: rgb(218, 2, 67);
+
 
 }
 
 #headlineText {
-    position: relative;
-    font-size: 20px;
-    text-align:justify;
-    top: 50px;
-    left: 450px;
-    width: 700px;
-    height: 400px;
-    
-   
-    background: rgb(236, 236, 236)
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s; /* Firefox < 16 */
-     -ms-animation: fadein 4s; /* Internet Explorer */
-      -o-animation: fadein 4s; /* Opera < 12.1 */
-         animation: fadein 4s;
-    
+position: relative;
+font-size: 45px;
+text-align:justify;
+padding-top: 80px;
+left: 550px;
+width: 700px;
+height: 400px;
+-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+color: #000000;
+
+ 
 }
 
+#headlineText>span {
+  color:rgb(218, 2, 67)
+}
 
 #signature{
   position: relative;
-  bottom: 120px;
-  left: 750px;
+  bottom: 200px;
+  left: 150px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
@@ -72,111 +82,81 @@ a:link, a:visited, a:hover, a:active {
   
 } 
 
-
-@keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
- from { opacity: 0; }
- to   { opacity: 1; }
-}
-
-    
-    /*MENU BUTTON*/
-    #menu {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-     left: 320px;
-     top: 20px;
-     z-index: 900;
-    
   
-      }
+  /*MENU BUTTON*/
+  #menu {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+   left: 150px;
+   top: 50px;
+   z-index: 900;
   
-      .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 6px;
-        background-color: rgb(218, 2, 67);
-        margin: 6px 0;
-        transition: 0.4s;
-      }
-      
-      /* Rotate first bar */
-      .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 6px) ;
-      }
-      
-      /* Fade out the second bar */
-      .change .bar2 {
-        opacity: 0;
-      }
-      
-      /* Rotate last bar */
-      .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-        transform: rotate(45deg) translate(-8px, -8px) ;
-      }
 
-    
-    /*DROPDOWN CONTENT*/
+    }
 
-    .dropdown-content {
-      display: none;
-      position:fixed;
-      background-color: rgb(245, 48, 74);
-      opacity: 0.9;
-      top: 80px;
-      right: -1vw;
-      height: 620px;
-      width: 100vw;
-      padding-left: 50px;
-      z-index: 50;
-      font-family: arial;
-      font-size: 40px;
-      color: black;
-      animation: fadeIn ease 2s;
-      text-align: center;
-       
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 6px;
+      background-color: rgb(218, 2, 67);
+      margin: 6px 0;
+      transition: 0.4s;
+    }
     
-      }
-      @keyframes fadeIn {
-      0% {opacity:0;}
-      100% {opacity:0.9;}
-      }
+    /* Rotate first bar */
+    .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+      transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    /* Fade out the second bar */
+    .change .bar2 {
+      opacity: 0;
+    }
+    
+    /* Rotate last bar */
+    .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+      transform: rotate(45deg) translate(-8px, -8px) ;
+    }
 
-    
+  
+  /*DROPDOWN CONTENT*/
+
+  .dropdown-content {
+    display: none;
+    position:fixed;
+    background-color: rgb(245, 48, 74);
+    opacity: 0.9;
+    top: 100px;
+    right: -1vw;
+    height: 500px;
+    width: 100vw;
+    padding-left: 50px;
+    z-index: 50;
+    font-family: arial;
+    font-size: 40px;
+    color: black;
+    animation: fadeIn ease 2s;
+    text-align: center;
+     
+  
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.9;}
+    }
+
+  
 ul { 
-  margin: 200px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  text-align: center;
-  text-decoration: none;
-  animation: fadeIn ease 4s;
-    
+margin: 200px auto 0; 
+padding: 0; 
+list-style: none; 
+display: table;
+text-align: center;
+text-decoration: none;
+animation: fadeIn ease 4s;
+  
 }
 @keyframes fadeIn {
 0% {opacity:0;}
@@ -184,40 +164,73 @@ ul {
 }
 
 li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 35px 0;
-  
+display: table-cell; 
+position: relative; 
+padding: 35px 0;
+
 }
 
 
- a {
-  color: #000000;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
+a {
+color: #000000;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 0.15em;
 
 }
 
 .dropdown-content a::after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  height: 2.5px;
-  position: absolute;
-  background: #000000;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-  
+background: none repeat scroll 0 0 transparent;
+bottom: 0;
+content: "";
+height: 2.5px;
+position: absolute;
+background: #000000;
+transition: width 0.3s ease 0s, left 0.3s ease 0s;
+width: 0;
+
 }
 a:hover:after { 
-  width: 50%; 
-  left: 23%; 
-  
+width: 50%; 
+left: 23%; 
+
 }
 
 @media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
+ul {
+  margin-top: 40px;
+}
+}
+
+
+
+#headlineText {
+  position: relative;
+  font-size: 20px;
+  text-align:justify;
+  top: 50px;
+  left: 480px;
+  width: 700px;
+  height: 400px;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+   -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+       animation: fadein 4s;
+  color: black;
+   
+}
+
+
+
+
+
+footer {
+  font-family: 'Amatic SC';
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 20;
+  text-align: center;
+
 }
