@@ -23,7 +23,7 @@ a:link, a:visited, a:hover, a:active {
 
   #headline {
     position: relative;
-    top: -50px;
+    top: -60px;
     left: 450px;
     color: rgb(0, 0, 0);
     font-family: 'La Belle Aurore', cursive;
@@ -108,7 +108,7 @@ a:link, a:visited, a:hover, a:active {
       opacity: 0.9;
       top: 90px;
       right: -1vw;
-     height: 600px;
+     height: 500px;
       width: 100vw;
       padding-left: 50px;
       z-index: 50;
