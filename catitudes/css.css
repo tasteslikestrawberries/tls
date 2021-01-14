@@ -24,7 +24,8 @@ a:link, a:visited, a:hover, a:active {
 
 #headline {
   position: relative;
-  left: 400px;
+  top: -50px;
+  left: 450px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
     font-size: 65px;
@@ -44,6 +45,7 @@ a:link, a:visited, a:hover, a:active {
     left: 450px;
     width: 700px;
     height: 400px;
+    
    
     background: rgb(236, 236, 236)
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -106,8 +108,8 @@ a:link, a:visited, a:hover, a:active {
       cursor: pointer;
       display: inline-block;
       position: relative;
-     left: 16vw;
-     top: 1vh;
+     left: 320px;
+     top: 20px;
      z-index: 900;
     
   
@@ -146,7 +148,7 @@ a:link, a:visited, a:hover, a:active {
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 7.6vh;
+      top: 80px;
       right: -1vw;
       height: 620px;
       width: 100vw;
