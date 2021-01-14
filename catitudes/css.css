@@ -56,16 +56,40 @@ left: 550px;
 width: 700px;
 height: 400px;
 
--webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
--moz-animation: fadein 4s; /* Firefox < 16 */
- -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera < 12.1 */
-     animation: fadein 4s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 
- 
-}
 
 
+  }
+  
 
 #headlineText>span {
   color:rgb(218, 2, 67)
@@ -79,11 +103,37 @@ height: 400px;
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
 
-  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 8s; /* Firefox < 16 */
-     -ms-animation: fadein 8s; /* Internet Explorer */
-      -o-animation: fadein 8s; /* Opera < 12.1 */
-         animation: fadein 8s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+
+
   
 } 
 
