@@ -7,7 +7,7 @@
   color: black;
   text-align: center;
   font-size: 15px;
-  font-family:Arial;
+  font-family: 'Nanum Gothic', sans-serif;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: -30px;
@@ -47,6 +47,7 @@ color: rgb(218, 2, 67);
 
 #headlineText {
 position: relative;
+font-family: 'Nanum Gothic', sans-serif;
 font-size: 45px;
 text-align:justify;
 padding-top: 80px;
