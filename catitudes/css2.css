@@ -40,13 +40,16 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     font-size: 20px;
     text-align:justify;
-    top: 60px;
+    top: 150px;
     left: 600px;
     width: 700px;
     height: 400px;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 65px;
-   color: rgb(218, 2, 67);
+    font-family: arial;
+    font-size: 40px;
+    text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+   color: rgb(0, 0, 0);
     background: rgb(236, 236, 236)
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
