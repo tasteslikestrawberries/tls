@@ -48,21 +48,24 @@ color: rgb(218, 2, 67);
 #headlineText {
 position: relative;
 font-family: 'Nanum Gothic', sans-serif;
-font-size: 45px;
+font-size: 20px;
+color: #000000;
 text-align:justify;
-padding-top: 80px;
+padding-top: 120px;
 left: 550px;
 width: 700px;
 height: 400px;
+
 -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 -moz-animation: fadein 4s; /* Firefox < 16 */
  -ms-animation: fadein 4s; /* Internet Explorer */
   -o-animation: fadein 4s; /* Opera < 12.1 */
      animation: fadein 4s;
-color: #000000;
 
  
 }
+
+
 
 #headlineText>span {
   color:rgb(218, 2, 67)
@@ -70,11 +73,12 @@ color: #000000;
 
 #signature{
   position: relative;
-  bottom: 200px;
+  bottom: 250px;
   left: 150px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
+
   -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 8s; /* Firefox < 16 */
      -ms-animation: fadein 8s; /* Internet Explorer */
@@ -129,7 +133,7 @@ color: #000000;
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 100px;
+    top: 110px;
 
     height: 500px;
     width: 100%;
@@ -202,27 +206,6 @@ ul {
   margin-top: 40px;
 }
 }
-
-
-
-#headlineText {
-  position: relative;
-  font-size: 20px;
-  text-align:justify;
-  top: 50px;
-  left: 480px;
-  width: 700px;
-  height: 400px;
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-   -ms-animation: fadein 4s; /* Internet Explorer */
-    -o-animation: fadein 4s; /* Opera < 12.1 */
-       animation: fadein 4s;
-  color: black;
-   
-}
-
-
 
 
 

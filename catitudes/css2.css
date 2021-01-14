@@ -38,6 +38,7 @@ left: 50px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
+  
 }
 
 #headline>span {
@@ -49,6 +50,7 @@ color: rgb(218, 2, 67);
 #headlineText {
 position: relative;
 font-size: 45px;
+color: #000000;
 text-align:justify;
 top: 230px;
 left: 550px;
@@ -59,7 +61,7 @@ height: 400px;
  -ms-animation: fadein 4s; /* Internet Explorer */
   -o-animation: fadein 4s; /* Opera < 12.1 */
      animation: fadein 4s;
-color: #000000;
+
 text-transform: uppercase;
 text-decoration: none;
 letter-spacing: 0.15em;
@@ -116,7 +118,7 @@ letter-spacing: 0.15em;
   position:fixed;
   background-color: rgb(245, 48, 74);
   opacity: 0.9;
-  top: 100px;
+  top: 110px;
 
   height: 500px;
   width: 100%;
