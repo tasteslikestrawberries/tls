@@ -130,10 +130,10 @@ color: #000000;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
     top: 100px;
-    right: -1vw;
+
     height: 500px;
     width: 100vw;
-    padding-left: 50px;
+    
     z-index: 50;
     font-family: arial;
     font-size: 40px;
