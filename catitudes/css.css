@@ -3,51 +3,35 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .headContainer {
-    position: relative;
+    position: fixed;
+    width: 1024px;
+    height: 768px;
     background-image: url('assets/Catitudes.webp');
+    background-position: 20px -50px 0 0;
+  
     background-size:130%;
     background-repeat: no-repeat;
     color: rgb(0, 0, 0);
-    text-align: center;
     font-size: 15px;
     font-family:Arial;
-    height: 600px;
-    width: 900px;
-    left: 300px;
-    background-position: -160px;
-    top: -10px;
+    margin: auto;
+   
+    
     
 }
-
-.headContainer img {
-    width:25px;
-    height:20px;
-   border: none;
-   
-  }
-
-
-  .headContainer img:hover {
-    opacity: 0.5;
-   
-  }
-
-  .headContainer:hover {
-    text-decoration: none;
-  }
 
 
 
 #headline {
   position: relative;
-  text-align: center;
+  left: 400px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
     font-size: 65px;
 }
 
 #headline>span {
- color:black;
+  color: rgb(218, 2, 67);
  
 
 }
@@ -56,11 +40,11 @@ a:link, a:visited, a:hover, a:active {
     position: relative;
     font-size: 20px;
     text-align:justify;
-    top: 30px;
-    left: 230px;
-    width: 600px;
+    top: 50px;
+    left: 450px;
+    width: 700px;
     height: 400px;
-    margin-bottom: 10px;
+   
     background: rgb(236, 236, 236)
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -73,8 +57,8 @@ a:link, a:visited, a:hover, a:active {
 
 #signature{
   position: relative;
-  bottom: 200px;
-  left: 220px;
+  bottom: 120px;
+  left: 750px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
@@ -122,12 +106,13 @@ a:link, a:visited, a:hover, a:active {
       cursor: pointer;
       display: inline-block;
       position: relative;
-     left: 300px;
+     left: 16vw;
+     top: 1vh;
      z-index: 900;
     
   
       }
-      
+  
       .bar1, .bar2, .bar3 {
         width: 35px;
         height: 6px;
@@ -161,10 +146,10 @@ a:link, a:visited, a:hover, a:active {
       position:fixed;
       background-color: rgb(245, 48, 74);
       opacity: 0.9;
-      top: 50px;
-      left: 150px;
+      top: 7.6vh;
+      right: -1vw;
       height: 620px;
-      width: 1200px;
+      width: 100vw;
       padding-left: 50px;
       z-index: 50;
       font-family: arial;
