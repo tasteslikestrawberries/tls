@@ -56,6 +56,8 @@ top: 230px;
 left: 550px;
 width: 700px;
 height: 400px;
+text-transform: uppercase;
+letter-spacing: 0.15em;
 animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   -moz-animation: fadeIn ease 4s;
@@ -88,9 +90,6 @@ animation: fadeIn ease 4s;
 
 
 
-text-transform: uppercase;
-text-decoration: none;
-letter-spacing: 0.15em;
  
 }
 
