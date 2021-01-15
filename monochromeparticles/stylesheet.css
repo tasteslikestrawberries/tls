@@ -24,28 +24,32 @@ h1 {
 .content {
   display: inline-grid;
   justify-content: space-evenly;
-  padding: 10 150px;
+  padding: 10;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 35px;
-  margin: 20 20 20 100;
+  grid-column-gap: 5px;
+  margin: auto;
+  width: 100%
 }
 
 .iframe {
   display:block;
-  width: 460px;
-  height: 240px;
+  width: 400px;
+  height: 300px;
   margin: 0 auto;
+  
   
 }
 
 .article {
   position: relative;
-  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-image: url("/monochromeparticles/assets/bg-particles.png");
   background-attachment:fixed;
   font-family: arial;
   font-size: 14px;
   text-align: justify;
   padding: 40px;
+  max-width: 600px;
+ 
   
 }
 
@@ -83,6 +87,7 @@ h1 {
   height: 80px;
   display: flex;
   margin-top: 20px;
+  margin-left: 10px;
   text-decoration: none;
   }
 
@@ -122,7 +127,7 @@ footer {
 
 .loginform { text-align: center;
   color: rgb(0, 0, 0);
-  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-image: url("/monochromeparticles/assets/bg-particles.png");
   padding:50px;
   margin: 30px 400px 100px 400px;
   font-family: arial;
@@ -131,7 +136,7 @@ footer {
 
 .forgotpasswordform { text-align: center;
   color: rgb(0, 0, 0);
-  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-image: url("/monochromeparticles/assets/bg-particles.png");
   padding:50px;
   font-family: arial;
   font-size: 14px;
@@ -160,8 +165,8 @@ canvas{ display: block; vertical-align: top; }
 
 #particleContainer {
   position: relative;
-  width: 100%;
-  height: 30%;
+  width: 1300px;
+  height: 300px;
   margin: 10px;
 }
    
@@ -176,7 +181,8 @@ canvas{ display: block; vertical-align: top; }
    font-family: arial;
     padding: 14px; 
     margin-top: 20;
-    font-size: 16px;
+    font-size: 20px;
+    margin-left:10px;
      border: none; 
      cursor: pointer; }
 
@@ -191,9 +197,44 @@ canvas{ display: block; vertical-align: top; }
   left: 0px; 
   margin-left: 0px;
   background-color: rgb(255, 255, 255);
-  min-width: 60px;
+  width: 300px;
+  font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
-  border: 1px;z-index: 3;opacity: 0.8;}
+  border: 1px;z-index: 3;opacity: 0.8;
+
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+
+
+  
+} 
  
   
 .dropdown-content a { color: rgb(0, 0, 0); 
@@ -201,7 +242,9 @@ canvas{ display: block; vertical-align: top; }
   font-weight: bold;
    padding: 12px 16px;
     text-decoration: none;
-     display: block; }
+     display: block; 
+    
+    }
 
 .dropdown-content a:hover { 
   color: rgb(0, 0, 0); 
@@ -221,10 +264,10 @@ canvas{ display: block; vertical-align: top; }
 
 .shop {
  display: grid;
- width: 80vw;
+ width: 1200px;
  
- margin-left: 10vw;
- margin-right: 25vw;
+ margin-left: 100px;
+ margin-right: 25px;
  column-gap: 40px; 
  row-gap: 40px;
  font-family: 'Amatic SC';
@@ -241,7 +284,7 @@ canvas{ display: block; vertical-align: top; }
 }
 
 .shop-item {
-  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-image: url("/monochromeparticles/assets/bg-particles.png");
   background-attachment:fixed;
   border: 1px;
   padding: 80px;
@@ -288,15 +331,16 @@ canvas{ display: block; vertical-align: top; }
 /*CART*/
 .cart {
   position: relative;
-  background-image: url("https://i.ibb.co/vhMxMDf/imageedit-2-2465901220.png");
+  background-image: url("/monochromeparticles/assets/bg-particles.png");
   background-attachment:fixed;
   font-family: Amatic SC;
   font-size: 20px;
   text-align: justify;
-  padding: 20px;
-  width: 70vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  padding: 40px;
+  width: 1200px;
+  margin-left: 100px;
+  margin-right: 25px;
+
   
 }
 

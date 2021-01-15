@@ -140,7 +140,7 @@ animation: fadeIn ease 4s;
 
 .dropdown-content {
   display: none;
-  position:fixed;
+  position: fixed;
   background-color: rgb(245, 48, 74);
   opacity: 0.9;
   top: 110px;
