@@ -142,6 +142,7 @@ height: 400px;
   #menu {
     cursor: pointer;
     display: inline-block;
+    position: relative;
    left: 150px;
    top: 50px;
    z-index: 900;
