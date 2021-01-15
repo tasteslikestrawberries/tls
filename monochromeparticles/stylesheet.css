@@ -1,4 +1,4 @@
-a:visited 
+a:active a:visited a:after a:hover 
 {
     text-decoration: none; 
     decoration: none; 
@@ -7,7 +7,7 @@ a:visited
 
 h1 {  
  position: relative;
- margin-top:-30px;
+ top: 100px;
  font-family: arial;
 text-decoration: none;
 letter-spacing: 0.15em;
@@ -16,8 +16,7 @@ letter-spacing: 0.15em;
 overflow: hidden;
 text-align:center;
 z-index: 1;
-top: 50%
-   
+width: 1200px;
 }
 
 /*background: url('https://i.ibb.co/SdFn0Hv/cool-background.png');
@@ -28,16 +27,16 @@ top: 50%
   justify-content: space-evenly;
   padding: 10px;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 50px;
-  margin-left: 100px;
+  grid-column-gap: 30px;
+  margin-left: 80px;
   width: 1200px;
  
 }
 
 .iframe {
   display:block;
-  width: 400px;
-  height: 300px;
+  width: 75%;
+  height: 50%;
   margin: 0 auto;
   
   
@@ -51,7 +50,8 @@ top: 50%
   font-size: 16px;
   text-align: justify;
   padding: 40px;
-  max-width: 600px;
+  width: 500px;
+  height: 600px;
  
   
 }
@@ -87,7 +87,6 @@ top: 50%
   text-align: left;
   font-weight: bold;
   font-size: 25px;
-  height: 80px;
   display: flex;
   margin-top: 20px;
   margin-left: 10px;
@@ -170,6 +169,7 @@ canvas{ display: block; vertical-align: top; }
   width: 1200px;
   height: 300px;
   margin: 10px;
+
 }
    
 /*DROP DOWN MENU*/
