@@ -24,15 +24,22 @@ width: 1200px;
 */
 
 .content {
-  text-align: center;
-  display: inline-grid;
-  position: relative;
-  justify-content: space-evenly;
-  padding: 10px;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 30px;
-  width: 1000px;
-  margin-left: 17%;
+
+display: inline-grid;
+ width: 1200px;
+ margin-left: 100px;
+ 
+ column-gap: 0px; 
+ row-gap: 30px;
+ font-family: 'Amatic SC';
+ 
+ grid-template-rows: repeat (2, minmax(0, 1fr));
+ grid-template-columns: repeat(2, minmax(0, 1fr));
+ justify-items: stretch;
+ align-items: stretch;
+ font-size: 20px;
+ text-align: justify;
+ padding: 40px;
  
 }
 
@@ -62,6 +69,7 @@ width: 1200px;
   font-family: Amatic SC;
   font-size: 35px;
   font-weight: bold;
+  text-shadow: 4px 4px 4px #aaa;
  
 }
 
@@ -188,7 +196,7 @@ canvas{ display: block; vertical-align: top; }
    color: white; 
    position: relative;
   
-   font-family: 'Nanum Gothic', sans-serif;
+   font-family: arial;
     padding: 14px; 
     margin-top: 20;
     font-size: 20px;
@@ -201,14 +209,14 @@ canvas{ display: block; vertical-align: top; }
 }
 
 .dropdown-content {display: none;
-  font-family: 'Amatic SC';
+  font-family: arial;
   position: absolute;
   top: 100%;
   left: 0px; 
   margin-left: 0px;
   background-color: rgb(255, 255, 255);
   width: 240px;
-  font-size: 35px;
+  font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
   border: 1px solid black;z-index: 3;opacity: 1;
   
