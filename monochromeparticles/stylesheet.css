@@ -87,7 +87,7 @@ width: 1200px;
   text-align: left;
   font-weight: bold;
   font-size: 25px;
-  display: flex;
+  display: relative;
   margin-top: 20px;
   margin-left: 10px;
   text-decoration: none;
@@ -105,7 +105,7 @@ width: 1200px;
   }
   
   #firstsocialnetwork {
-    margin-left: auto;
+    margin-left: 760px;
   }
   
   
@@ -180,6 +180,8 @@ canvas{ display: block; vertical-align: top; }
 
 .dropbutton { background-color: rgb(0, 0, 0);
    color: white; 
+   position: relative;
+  
    font-family: 'Nanum Gothic', sans-serif;
     padding: 14px; 
     margin-top: 20;
@@ -265,9 +267,9 @@ canvas{ display: block; vertical-align: top; }
 
 
 .shop {
+
  display: grid;
  width: 1200px;
- 
  margin-left: 100px;
  margin-right: 25px;
  column-gap: 40px; 
