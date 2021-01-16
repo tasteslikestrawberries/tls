@@ -341,15 +341,63 @@ margin-left: 10px;
 /*VISION BOARD PAGE*/
 
 .visionBoardContainer {
-  position: relative;
-  width: 1500;
-  height: fit-content;
- background-image: url('assets/lips.png');
- background-repeat: no-repeat;
- background-position-x: 900px;
-margin-left: 10px;
-
+position: relative;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 18px;
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+ border: 5px dotted rgb(218, 2, 67);
+ padding: 40px;
+ width: 1200px;
 }
+
+.visionBoardContainer>span {
+  color:rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 50px;
+}
+
+.visionBoardImageContainer {
+  display: grid;
+  position: relative;
+  height: fit-content;
+ max-width:fit-content;
+margin-left: 80px;
+margin-right: 50px;
+column-gap: 40px; 
+row-gap: 40px;
+text-shadow: 4px 4px 4px #aaa;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+justify-items: stretch;
+align-items: stretch;
+text-align: center;
+padding: 20px;
+}
+
+.visionBoardImageContainer img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor:pointer;
+  }
+
+  .visionBoardImageContainer img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
 
 
 
