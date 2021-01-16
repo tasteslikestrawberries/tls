@@ -19,10 +19,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
   window.addEventListener('click', onPageClickHandlerForMenu);
 });
 
-/*
-document.onreadystatechange = function() {
-  console.log('DOM fully loaded and parsed onReady');
-}*/
 
 function onPageClickHandlerForMenu(event) {
   if (menuOpen === false) 
