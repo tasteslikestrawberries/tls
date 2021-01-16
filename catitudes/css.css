@@ -317,24 +317,28 @@ ul {
 
 .diaryContainer {
   position: relative;
-  width: 1500;
+  width: 1200;
   height: fit-content;
  background-image: url('assets/lips.png');
  background-repeat: no-repeat;
- background-position-x: 900px;
-margin-left: 10px;
-
+ background-position-x: 820px;
+ background-size: 40%;
+margin-left: 100px;
+margin-right: 100px;
+border: 5px dotted rgb(218, 2, 67);
+ padding: 40px;
 }
 
 
 .diaryContainerText {
   position: relative;
   width: 800px;
-  padding-left: 100px;
+  padding-left: 10px;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-family: 'Nanum Gothic', sans-serif;
   text-align: justify;
+  
 
   
 }
