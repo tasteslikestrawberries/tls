@@ -17,18 +17,6 @@
   
 }
 
-.socialNetworks {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  width: 45px;
-  height: 45px;
-  left: 100px;
-  top: 51px;
- z-index: 40;
-  
-}
-
 
 #headline {
 position: relative;
@@ -95,6 +83,53 @@ height: 400px;
   color:rgb(218, 2, 67)
 }
 
+#headlineTextPages {
+  position: relative;
+  font-size: 45px;
+  color: #000000;
+  text-align:justify;
+  top: 230px;
+  left: 550px;
+  width: 700px;
+  height: 400px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+  
+  
+   
+  }
+  
+
 #signature{
   position: relative;
   bottom: 250px;
@@ -136,6 +171,18 @@ height: 400px;
 
   
 } 
+
+.socialNetworks {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  left: 100px;
+  top: 51px;
+ z-index: 40;
+  
+}
 
   
   /*MENU BUTTON*/
@@ -255,6 +302,39 @@ left: 23%;
 ul {
   margin-top: 40px;
 }
+}
+
+/*DIARY PAGE*/
+
+.diaryContainer {
+  position: relative;
+  width: 1500;
+  height: fit-content;
+ background-image: url('assets/lips.png');
+ background-repeat: no-repeat;
+ background-position-x: 900px;
+margin-left: 10px;
+
+}
+
+
+.diaryContainerText {
+  position: relative;
+  width: 800px;
+  padding-left: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: justify;
+
+  
+}
+
+.diaryContainerText>span {
+  color: rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 30px;
+ 
 }
 
 
