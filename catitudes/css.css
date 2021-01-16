@@ -338,6 +338,20 @@ margin-left: 10px;
 }
 
 
+/*VISION BOARD PAGE*/
+
+.visionBoardContainer {
+  position: relative;
+  width: 1500;
+  height: fit-content;
+ background-image: url('assets/lips.png');
+ background-repeat: no-repeat;
+ background-position-x: 900px;
+margin-left: 10px;
+
+}
+
+
 
 footer {
   color: rgb(245, 48, 74);
