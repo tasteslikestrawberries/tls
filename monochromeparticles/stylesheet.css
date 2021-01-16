@@ -7,7 +7,7 @@ a:active a:visited a:after a:hover
 
 h1 {  
  position: relative;
- top: 100px;
+ top: 150px;
  font-family: arial;
 text-decoration: none;
 letter-spacing: 0.15em;
@@ -17,6 +17,7 @@ overflow: hidden;
 text-align:center;
 z-index: 1;
 width: 1200px;
+left: 150px;
 
 }
 
