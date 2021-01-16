@@ -1,16 +1,48 @@
-var menu = document.getElementById('menu');
-menu.addEventListener("click", dropdown);
+var menuOpen = false; // boolean
 
-function dropdown() {
-   var x = document.getElementsByClassName('dropdown-content')[0];
-   document.getElementById("menu").classList.toggle("change");
+var menuButton = document.getElementById('menu');
+menuButton.addEventListener("click", dropdown);
+
+var dropdownMenu = document.getElementsByClassName('dropdown-content')[0];
+dropdownMenu.addEventListener("click", onDropdownMenuClickHandler)
+
+function dropdown(event) {
+   if (menuOpen === true) {
+     closeMenu();
+   } else {
+     openMenu();
+   }
+   event.stopPropagation();
+}
    
-  if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
-    x.style.display = 'block';
-    
-  } else {
-    x.style.display = 'none';
-  }
+window.addEventListener('DOMContentLoaded', (event) => {
+  window.addEventListener('click', onPageClickHandlerForMenu);
+});
+
+/*
+document.onreadystatechange = function() {
+  console.log('DOM fully loaded and parsed onReady');
+}*/
+
+function onPageClickHandlerForMenu(event) {
+  if (menuOpen === false) 
+    return;
+
+  closeMenu();
 }
 
+function onDropdownMenuClickHandler(event) {
+  event.stopPropagation();
+}
 
+function openMenu() {
+  menuButton.classList.add("change");
+  dropdownMenu.style.display = 'block';
+  menuOpen = true;
+}
+
+function closeMenu() {
+  menuButton.classList.remove("change");
+  dropdownMenu.style.display = 'none';
+  menuOpen = false;
+}
