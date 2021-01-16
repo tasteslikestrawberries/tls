@@ -359,10 +359,12 @@ margin-right: 100px;
  border: 5px dotted rgb(218, 2, 67);
  padding: 40px;
  width: 1200px;
+ background-color:rgb(255, 255, 255);
+
 }
 
 .visionBoardContainer>span {
-  color:rgb(218, 2, 67);
+  color:rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
 }
