@@ -42,3 +42,5 @@ function closeMenu() {
   dropdownMenu.style.display = 'none';
   menuOpen = false;
 }
+
+

@@ -73,7 +73,7 @@
 
          
          <br><br><br>
-    <form action="mailto:tasteslikestrawberries.design@gmail.com" method="GET">
+    <form name="contact_form" action= "https://formspree.io/f/xwkwykpb" method="POST">
         <ul>
             <li>
                 <label for="name"><span>Name <span class="required-star">*</span></span></label>
@@ -85,10 +85,10 @@
             </li>
             <li>
                 <label for="msg"><span>Message</span></label>
-                <textarea rows="4" cols="50"></textarea>
+                <textarea name="msg" rows="4" cols="50"></textarea>
             </li>
             <li>
-                <input type="submit">
+                <input type="submit" name="submit" value="Submit">
             </li>
         </ul>
     </form>
