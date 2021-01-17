@@ -528,14 +528,14 @@ form li {
   
 }
 label span {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'La Belle Aurore', cursive;
+  
     font-weight: bold;
     color: rgb(218, 2, 67);
-    line-height: 35px;
-    line-height: 2.5rem;
-    font-size: 12px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 25px;
+    
+   
   
     
 }
@@ -550,6 +550,7 @@ form input[type="submit"] {
 
 .required-star {
     color: rgb(218, 2, 67);
+    font-size: 16px;
 }
 
 input,
