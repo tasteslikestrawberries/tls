@@ -258,7 +258,7 @@ height: 400px;
     }
 
   
-ul { 
+.dropdown-content ul { 
 margin: 200px auto 0; 
 padding: 0; 
 list-style: none; 
@@ -273,7 +273,7 @@ animation: fadeIn ease 2s;
 100% {opacity:0.9;}
 }
 
-li { 
+.dropdown-content li { 
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
@@ -466,7 +466,7 @@ padding: 20px;
   
     position: relative;
     width: 1200;
-    height: 600;
+    height: fit-content;
    background-image: url('assets/visionlips.webp');
    background-repeat: no-repeat;
    background-position-x: 900px;
@@ -498,6 +498,72 @@ padding: 20px;
 
 /*CONTACT FORM*/
 
+label,
+input,
+textarea {
+    display: ;
+    width: 100%;
+}
+
+form {
+  
+  background-color: #ffffff;
+  padding-top: 40 40 40 40;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  box-shadow: 0 20px 40px rgba(218, 2, 67, 0.123);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 400px;
+  
+}
+form ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+form li {
+    padding: 0.3em;
+}
+label span {
+  font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    color: rgb(218, 2, 67);
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+form input[type="submit"] {
+    background: rgb(218, 2, 67);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+}
+
+
+.required-star {
+    color: rgb(218, 2, 67);
+}
+
+input,
+textarea {
+    
+    padding: 9px 20px;
+    border: 1px solid rgb(218, 2, 67);
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    line-height: 20px;
+}
 
 
 
