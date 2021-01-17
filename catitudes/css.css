@@ -20,7 +20,7 @@ a>span {color:rgb(218, 2, 67)}
   margin-left: 10px;
   margin-top: -30px;
  width: 1500px;
-  height: 600px;
+  height: 570px;
  line-height: 1.4;
   
 }
@@ -187,7 +187,7 @@ height: 400px;
   width: 45px;
   height: 45px;
   left: 100px;
-  top: 51.5px;
+  top: 21px;
  z-index: 40;
   
 }
@@ -199,7 +199,7 @@ height: 400px;
     display: inline-block;
     position: relative;
    left: 150px;
-   top: 50px;
+   top: 20px;
    z-index: 900;
   
 
@@ -215,8 +215,8 @@ height: 400px;
     
     /* Rotate first bar */
     .change .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-      transform: rotate(-45deg) translate(-9px, 6px) ;
+      -webkit-transform: rotate(-45deg) translate(-9px, 9px) ;
+      transform: rotate(-45deg) translate(-9px, 9px) ;
     }
     
     /* Fade out the second bar */
@@ -238,8 +238,7 @@ height: 400px;
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 100px;
-
+    top: 80px;
     height: 500px;
     width: 100%;
     
@@ -277,7 +276,7 @@ animation: fadeIn ease 2s;
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
-
+top: -20px;
 }
 
 
