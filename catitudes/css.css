@@ -276,7 +276,7 @@ animation: fadeIn ease 2s;
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
-top: -20px;
+top: -25px;
 }
 
 
@@ -290,7 +290,7 @@ letter-spacing: 0.15em;
 
 .dropdown-content a::after {    
 background: none repeat scroll 0 0 transparent;
-bottom: 0;
+bottom: 5;
 content: "";
 height: 2.5px;
 position: absolute;
