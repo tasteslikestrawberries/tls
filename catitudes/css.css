@@ -501,8 +501,8 @@ padding: 20px;
 label,
 input,
 textarea {
-    display: ;
     width: 100%;
+    box-shadow: 0 20px 40px rgba(252, 192, 210, 0.418);
 }
 
 form {
@@ -512,7 +512,6 @@ form {
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
-  box-shadow: 0 20px 40px rgba(218, 2, 67, 0.123);
   border-radius: 5px;
   overflow: hidden;
   width: 400px;
@@ -526,7 +525,8 @@ form ul {
 }
 
 form li {
-    padding: 0.3em;
+  padding: 0.3em;
+  
 }
 label span {
   font-family: 'Nanum Gothic', sans-serif;
@@ -537,16 +537,17 @@ label span {
     font-size: 12px;
     font-size: 0.8rem;
     text-transform: uppercase;
+  
+    
 }
 form input[type="submit"] {
     background: rgb(218, 2, 67);
     color: white;
     font-weight: bold;
     font-size: 16px;
-    
+    cursor: pointer;
     
 }
-
 
 .required-star {
     color: rgb(218, 2, 67);
@@ -564,8 +565,6 @@ textarea {
     border-radius: 3px;
     line-height: 20px;
 }
-
-
 
 
 
