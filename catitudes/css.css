@@ -266,7 +266,7 @@ list-style: none;
 display: table;
 text-align: center;
 text-decoration: none;
-animation: fadeIn ease 4s;
+animation: fadeIn ease 2s;
   
 }
 @keyframes fadeIn {
