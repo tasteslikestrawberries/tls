@@ -100,7 +100,6 @@ height: 400px;
   top: 230px;
   left: 550px;
   width: 700px;
-  height: 400px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   animation: fadeIn ease 4s;
@@ -421,9 +420,9 @@ padding: 20px;
 	-webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   cursor:pointer;
-  width: 300;
+  width: 350;
   height: 200;
-  padding: 10px;
+  
 }
  .vbImageItem img:hover {
 	-webkit-filter: grayscale(0);
@@ -440,6 +439,7 @@ padding: 20px;
   color:rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   text-transform: lowercase;
+  padding: 10px;
  
 }
 
@@ -450,6 +450,7 @@ padding: 20px;
   color:rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-weight: bold;
+  padding: 10px;
 
 }
 
@@ -493,6 +494,14 @@ padding: 20px;
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
 }
+
+
+/*CONTACT FORM*/
+
+
+
+
+
 
 footer {
   color: rgb(245, 48, 74);
