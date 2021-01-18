@@ -48,8 +48,9 @@ font-family: 'Nanum Gothic', sans-serif;
 font-size: 20px;
 color: #000000;
 text-align:justify;
-padding-top: 120px;
-left: 550px;
+padding-top: 100px;
+padding-bottom: 55px;
+left: 500px;
 width: 700px;
 height: 400px;
 
@@ -86,6 +87,7 @@ height: 400px;
 
 
   }
+
   
 
 #headlineTextPages>span {
