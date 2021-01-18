@@ -587,6 +587,35 @@ textarea {
 }
 
 
+/*PORTFOLIO PAGE*/
+
+.portfolioContainer {
+  
+  position: relative;
+  width: 1200;
+  height: fit-content;
+ background-image: url('');
+ background-repeat: no-repeat;
+ background-position-x: 900px;
+ background-size: 30%;
+margin-left: 100px;
+margin-right: 100px;
+border: 5px dotted rgb(218, 2, 67);
+ padding: 40px;
+ line-height: 1.4;
+}
+
+.portfolioContainerText {
+position: relative;
+width: 800px;
+padding-left: 10px;
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-family: 'Nanum Gothic', sans-serif;
+text-align: justify;
+
+}
+
 
 footer {
   color: rgb(245, 48, 74);
