@@ -54,11 +54,11 @@ left: 500px;
 width: 700px;
 height: 400px;
 
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
   }
   @keyframes fadeIn {
   0% {opacity:0;}
@@ -104,11 +104,11 @@ height: 400px;
   width: 700px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
+  animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
     }
     @keyframes fadeIn {
     0% {opacity:0;}
@@ -248,7 +248,7 @@ height: 400px;
     font-family: arial;
     font-size: 40px;
     color: black;
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 0.5s;
     text-align: center;
      
   
