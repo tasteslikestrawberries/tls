@@ -381,6 +381,23 @@ margin-right: 100px;
   margin-left: 10px;
 }
 
+.tasteslike {
+  color:rgb(0, 0, 0);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.strawberries {
+  color:rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
 .vbImageContainer {
   display: grid;
   position: relative;
