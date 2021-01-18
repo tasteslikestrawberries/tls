@@ -528,10 +528,10 @@ form {
   padding-top: 40 40 40 40;
   padding-right: 40px;
   padding-bottom: 40px;
-  padding-left: 40px;
+  
   border-radius: 5px;
   overflow: hidden;
-  width: 400px;
+  width: 450px;
   
 }
 form ul {
