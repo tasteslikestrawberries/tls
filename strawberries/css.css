@@ -619,6 +619,21 @@ text-align: justify;
 
 }
 
+.portfolioContainerText>span a {
+  color: rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+#layout {
+  display: block;
+  overflow:hidden;
+  width: 450px;
+  height: 300px;
+}
+
 
 footer {
   color: rgb(245, 48, 74);
