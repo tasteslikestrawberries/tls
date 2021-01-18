@@ -222,13 +222,13 @@ font-size: 14;}
       margin: 0;
       background-color: snow;
       opacity: 0.9;
-      height:500px;
+      height:400px;
       margin-top: 10px;
       margin-left: 0px;
       width: 1480;
       z-index: 50;
       font-family: arial;
-      font-size: 50px;
+      font-size: 40px;
       color: black;
       animation: fadeIn ease 2s;
     
