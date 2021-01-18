@@ -629,7 +629,7 @@ text-align: justify;
 
 #layout {
   display: block;
-  overflow:hidden;
+  overflow: hidden;
   width: 450px;
   height: 300px;
 }
