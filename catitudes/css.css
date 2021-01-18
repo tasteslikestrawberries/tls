@@ -479,9 +479,9 @@ padding: 20px;
 
 
 
-/*ABOUT ME PAGE*/
+/*contact ME PAGE*/
 
-.aboutMeContainer {
+.contactMeContainer {
   
     position: relative;
     width: 1200;
@@ -497,7 +497,7 @@ padding: 20px;
    line-height: 1.4;
 }
 
-.aboutMeContainerText {
+.contactMeContainerText {
   position: relative;
   width: 800px;
   padding-left: 10px;
@@ -508,7 +508,7 @@ padding: 20px;
 
 }
 
-.aboutMeContainerText>span {
+.contactMeContainerText>span {
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 40px;
