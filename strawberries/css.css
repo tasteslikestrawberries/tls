@@ -33,6 +33,7 @@ left: 50px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
+  
 }
 
 #headline>span {
@@ -95,6 +96,7 @@ height: 400px;
 
 #headlineTextPages>span {
   color:rgb(218, 2, 67)
+  
 }
 
 #headlineTextPages {
@@ -350,6 +352,7 @@ border: 5px dotted rgb(218, 2, 67);
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 30px;
+  font-weight: bold;
  
 }
 
@@ -379,6 +382,7 @@ margin-right: 100px;
   color:rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
+  font-weight: bold;
 }
 
 .vbContainerText {
@@ -515,6 +519,7 @@ padding: 20px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
+  font-weight: bold;
 }
 
 
@@ -608,32 +613,91 @@ border: 5px dotted rgb(218, 2, 67);
  line-height: 1.4;
 }
 
-.portfolioContainerText {
-position: relative;
-width: 800px;
-padding-left: 10px;
-color: rgb(0, 0, 0);
-font-size: 16px;
-font-family: 'Nanum Gothic', sans-serif;
-text-align: justify;
 
-}
-
-.portfolioContainerText>span a {
+.portfolioHeadline {
+  position: relative;
+  
+  left: 10px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
+
+}
+
+.portfolioText {
+  position: relative;
+  left: 10px;
+  top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+
 }
 
 
-#layout {
-  display: block;
+.layoutContainer {
+  top: 40px;
+  display: grid;
+  position: relative;
+  height: fit-content;
+ max-width:fit-content;
+ margin-left: 10px;
+
+column-gap: 50px; 
+row-gap: 50px;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+justify-items: stretch;
+align-items: stretch;
+text-align: center;
+
+
+}
+
+.layoutTitle {
+  display:inline-block;
+  text-align: center; 
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+  font-family: 'La Belle Aurore', cursive;
+  text-transform: lowercase;
+
+ 
+}
+
+.layoutItem {
+
+  display: flex;
   overflow: hidden;
+  position: relative;
   width: 450px;
   height: 300px;
+  padding-right: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  font-weight: bold;
+  
 }
 
+iframe {
+  width: 450;
+  height: 300;
+}
+
+
+
+#line {
+  border-top: 3px solid rgb(218, 2, 67);
+  position: relative;
+  margin-left: 10px;
+  top: 10px;
+  width:600px;
+  
+}
 
 footer {
   color: rgb(245, 48, 74);
