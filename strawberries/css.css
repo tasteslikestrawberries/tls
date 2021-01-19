@@ -674,7 +674,9 @@ text-align: center;
   position: relative;
   width: 450px;
   height: 300px;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   border: 1px solid rgb(0, 0, 0);
   flex-direction: column;
   justify-content:center;
@@ -686,6 +688,7 @@ text-align: center;
 iframe {
   width: 450;
   height: 300;
+  padding: 10px;
 }
 
 
