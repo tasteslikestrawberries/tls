@@ -8,9 +8,9 @@ a>span {color:rgb(218, 2, 67)}
 
 .headContainer {
   position: relative;
-  background-image: url('');
-  background-size:20%;
-  background-position-x: 160px;
+  background-image: url('/strawberries/assets/sl2.webp');
+  background-size:30%;
+  background-position-x: 80px;
   background-position-y: 110px;
   background-repeat: no-repeat;
   color: black;
@@ -325,11 +325,11 @@ ul {
   position: relative;
   width: 1200;
   height: fit-content;
- background-image: url('');
- background-repeat: no-repeat;
- background-position-x: 830px;
- background-position-y: -100px;
- background-size: 73%;
+  background-image: url('/strawberries/assets/lips2.webp');
+  background-repeat: no-repeat;
+  background-position-x: 830px;
+  background-position-y: -170px;
+  background-size: 113%;
 margin-left: 100px;
 margin-right: 100px;
 border: 5px dotted rgb(218, 2, 67);
@@ -366,13 +366,18 @@ position: relative;
 font-family: 'Nanum Gothic', sans-serif;
 font-size: 16px;
 text-align: justify;
+background-image: url('/strawberries/assets/lips2.webp');
+background-repeat: 
+background-position-x: px;
+background-position-y: -270px;
+background-size: 153%;
 margin-left: 100px;
 margin-right: 100px;
  border: 5px dotted rgb(218, 2, 67);
  padding: 40px;
  width: 1200px;
  line-height: 1.4;
-
+font-weight:bold;
 }
 
 .visionBoardContainer>span {
@@ -490,16 +495,17 @@ padding: 20px;
     position: relative;
     width: 1200;
     height: fit-content;
-    background-image: url('');
+    background-image: url('/strawberries/assets/lips2.webp');
     background-repeat: no-repeat;
     background-position-x: 830px;
-    background-position-y: -100px;
-    background-size: 73%;
+    background-position-y: -170px;
+    background-size: 113%;
   margin-left: 100px;
   margin-right: 100px;
   border: 5px dotted rgb(218, 2, 67);
    padding: 40px;
    line-height: 1.4;
+   font-weight: bold;
 }
 
 .contactMeContainerText {
@@ -600,16 +606,16 @@ textarea {
   position: relative;
   width: 1200;
   height: fit-content;
-  background-image: url('');
+  background-image: url('/strawberries/assets/lips2.webp');
   background-repeat: no-repeat;
   background-position-x: 830px;
-  background-position-y: -100px;
-  background-size: 73%;
+  background-position-y: -170px;
+  background-size: 113%;
 margin-left: 100px;
 margin-right: 100px;
 border: 5px dotted rgb(218, 2, 67);
  padding: 40px;
-
+font-weight:bold;
 }
 
 
