@@ -9,9 +9,9 @@ a>span {color:rgb(218, 2, 67)}
 .headContainer {
   position: relative;
   background-image: url('/strawberries/assets/sl2.webp');
-  background-size:20%;
-  background-position-x: 180px;
-  background-position-y: 200px;
+  background-size:16%;
+  background-position-x: 200px;
+  background-position-y: 210px;
   background-repeat: no-repeat;
   color: black;
   text-align: center;
@@ -52,7 +52,7 @@ color: #000000;
 text-align:justify;
 padding-top: 90px;
 padding-bottom: 100px;
-left: 500px;
+left: 450px;
 width: 700px;
 height: 400px;
 
