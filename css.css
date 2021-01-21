@@ -8,7 +8,7 @@ a>span {color:rgb(218, 2, 67)}
 
 .headContainer {
   position: relative;
-  background-image: url('/strawberries/assets/head.jpg');
+  background-image: url('/assets/head.jpg');
   background-size:30%;
   background-position-x: 40px;
   background-position-y: 100px;
