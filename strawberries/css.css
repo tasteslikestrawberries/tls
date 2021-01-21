@@ -8,10 +8,10 @@ a>span {color:rgb(218, 2, 67)}
 
 .headContainer {
   position: relative;
-  background-image: url('assets/lips.png');
-  background-size:80%;
-  background-position-x: -100px;
-  background-position-y: 120px;
+  background-image: url('/strawberries/assets/lippx.webp');
+  background-size:30%;
+  background-position-x: 40px;
+  background-position-y: 130px;
   background-repeat: no-repeat;
   color: black;
   text-align: center;
@@ -53,7 +53,7 @@ color: #000000;
 text-align:justify;
 padding-top: 90px;
 padding-bottom: 100px;
-left: 580px;
+left: 520px;
 width: 700px;
 height: 400px;
 
@@ -149,7 +149,7 @@ height: 400px;
 
 #signature{
   position: relative;
-  bottom: 250px;
+  bottom: 286px;
   left: 250px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
