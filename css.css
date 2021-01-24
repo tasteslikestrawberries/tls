@@ -149,8 +149,8 @@ height: 400px;
 
 #signature{
   position: relative;
-  bottom: 286px;
-  left: 250px;
+  bottom: 250px;
+  left: 245px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
@@ -195,8 +195,8 @@ height: 400px;
   position: relative;
   width: 45px;
   height: 45px;
-  left: 100px;
-  top: 21px;
+  left: 200px;
+  top: 20px;
  z-index: 40;
   
 }
@@ -207,8 +207,8 @@ height: 400px;
     cursor: pointer;
     display: inline-block;
     position: relative;
-   left: 150px;
-   top: 20px;
+   left: 250px;
+   top: 19px;
    z-index: 900;
   
 
