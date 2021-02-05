@@ -1,4 +1,4 @@
-#**hi there!** :raising_hand: 
+**hi there!** :raising_hand: 
 
  *i'm a media studies graduate <br>
  *currently learning Javascript <br>
