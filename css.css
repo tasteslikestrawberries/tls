@@ -18,7 +18,7 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 15px;
   font-family: 'Nanum Gothic', sans-serif;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: -50px;
  width: 1500px;
   height: 570px;
@@ -195,7 +195,7 @@ height: 400px;
   position: relative;
   width: 45px;
   height: 45px;
-  left: 200px;
+  left: 100px;
   top: 20px;
  z-index: 40;
   
@@ -207,9 +207,9 @@ height: 400px;
     cursor: pointer;
     display: inline-block;
     position: relative;
-   left: 250px;
-   top: 19px;
-   z-index: 900;
+    top: 19px;
+    left: 150px;
+    z-index: 900;
   
 
     }
@@ -250,7 +250,7 @@ height: 400px;
     top: 75px;
     height: 490px;
     width: 100%;
-    
+    margin:0;
     z-index: 50;
     font-family: arial;
     font-size: 40px;
