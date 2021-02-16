@@ -1,12 +1,14 @@
-a:link, a:active, a:hover, a:visited
-{
-  color: black;
-    text-decoration: none;
+a:link, a:active, a:hover, a:visited {
+
+ color: black;
+ text-decoration: none;
+
 }
 
 a>span {color:rgb(218, 2, 67)}
 
 .headContainer {
+
   position: relative;
   background-image: url('/assets/head.jpg');
   background-size:30%;
@@ -20,18 +22,19 @@ a>span {color:rgb(218, 2, 67)}
   margin-right: 10px;
   margin-left: 0px;
   margin-top: -50px;
- width: 1500px;
+  width: 1500px;
   height: 570px;
- line-height: 1.4;
+  line-height: 1.4;
  
   
 }
 
 
 #headline {
-position: relative;
-top: 70px;
-left: 50px;
+
+  position: relative;
+  top: 70px;
+  left: 50px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
@@ -39,23 +42,24 @@ left: 50px;
 }
 
 #headline>span {
-color: rgb(218, 2, 67);
 
+  color: rgb(218, 2, 67);
 
 }
 
 
 #headlineText {
-position: relative;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 20px;
-color: #000000;
-text-align:justify;
-padding-top: 90px;
-padding-bottom: 100px;
-left: 465px;
-width: 700px;
-height: 400px;
+
+  position: relative;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  color: #000000; 
+  text-align:justify;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  left: 465px;
+  width: 700px;
+  height: 400px;
 
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -87,21 +91,23 @@ height: 400px;
   0% {opacity:0;}
   100% {opacity:1;}
 
-
-
   }
 
   #headlineText>span {
-    color:rgb(218, 2, 67);
+
+  color:rgb(218, 2, 67);
+
   }
   
 
 #headlineTextPages>span {
+
   color:rgb(218, 2, 67)
   
 }
 
 #headlineTextPages {
+
   position: relative;
   font-size: 45px;
   color: #000000;
@@ -112,6 +118,7 @@ height: 400px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   animation: fadeIn ease 3s;
+
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
@@ -141,13 +148,12 @@ height: 400px;
     0% {opacity:0;}
     100% {opacity:1;}
   
-  
-  
    
   }
   
 
 #signature{
+
   position: relative;
   bottom: 250px;
   left: 240px;
@@ -161,6 +167,7 @@ height: 400px;
   -o-animation: fadeIn ease 4s;
   -ms-animation: fadeIn ease 4s;
   }
+
   @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -184,12 +191,11 @@ height: 400px;
   @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-
-
   
 } 
 
 .socialNetworks {
+
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -197,13 +203,15 @@ height: 400px;
   height: 45px;
   left: 100px;
   top: 20px;
- z-index: 40;
+  z-index: 40;
   
 }
 
   
   /*MENU BUTTON*/
+
   #menu {
+
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -211,15 +219,16 @@ height: 400px;
     left: 150px;
     z-index: 900;
   
-
     }
 
     .bar1, .bar2, .bar3 {
+
       width: 35px;
       height: 6px;
       background-color: rgb(218, 2, 67);
       margin: 6px 0;
       transition: 0.4s;
+
     }
     
     /* Rotate first bar */
@@ -243,6 +252,7 @@ height: 400px;
   /*DROPDOWN CONTENT*/
 
   .dropdown-content {
+
     display: none;
     position:fixed;
     background-color: rgb(245, 48, 74);
@@ -260,36 +270,44 @@ height: 400px;
      
   
     }
+
+    @keyframes fadeIn {
+
+    0% {opacity:0;}
+    100% {opacity:0.9;}
+
+    }
+
+  
+.dropdown-content ul { 
+
+    margin: 200px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    text-align: center;
+    text-decoration: none;
+    animation: fadeIn ease 2s;
+  
+}
+
     @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:0.9;}
     }
 
-  
-.dropdown-content ul { 
-margin: 200px auto 0; 
-padding: 0; 
-list-style: none; 
-display: table;
-text-align: center;
-text-decoration: none;
-animation: fadeIn ease 2s;
-  
-}
-@keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:0.9;}
-}
-
 .dropdown-content li { 
+
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
 top: -25px;
+
 }
 
 
 .dropdown-content a {
+
 color: #000000;
 text-transform: uppercase;
 text-decoration: none;
@@ -298,6 +316,7 @@ letter-spacing: 0.15em;
 }
 
 .dropdown-content a::after {    
+
 background: none repeat scroll 0 0 transparent;
 bottom: 5;
 content: "";
@@ -308,6 +327,8 @@ transition: width 0.3s ease 0s, left 0.3s ease 0s;
 width: 0;
 
 }
+
+
 a:hover:after { 
 width: 50%; 
 left: 23%; 
@@ -323,6 +344,7 @@ ul {
 /*DIARY PAGE*/
 
 .diaryContainer {
+
   position: relative;
   width: 1200;
   height: fit-content;
@@ -331,14 +353,16 @@ ul {
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-margin-left: 100px;
-margin-right: 100px;
-border: 5px dotted rgb(218, 2, 67);
- padding: 40px;
-}
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 5px dotted rgb(218, 2, 67);
+  padding: 40px;
+
+  }
 
 
 .diaryContainerText {
+
   position: relative;
   width: 800px;
   padding-left: 10px;
@@ -352,6 +376,7 @@ border: 5px dotted rgb(218, 2, 67);
 }
 
 .diaryContainerText>span {
+
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 30px;
@@ -363,6 +388,7 @@ border: 5px dotted rgb(218, 2, 67);
 /*VISION BOARD PAGE*/
 
 .visionBoardContainer {
+
 position: relative;
 font-family: 'Nanum Gothic', sans-serif;
 font-size: 16px;
@@ -374,27 +400,31 @@ background-image: url('');
     background-size: 113%;
 margin-left: 100px;
 margin-right: 100px;
- border: 5px dotted rgb(218, 2, 67);
- padding: 40px;
- width: 1200px;
- line-height: 1.4;
+border: 5px dotted rgb(218, 2, 67);
+padding: 40px;
+width: 1200px;
+line-height: 1.4;
 
 }
 
 .visionBoardContainer>span {
+
   color:rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
   font-weight: bold;
+
 }
 
 .vbContainerText {
+
   width: 1100px;
   margin-left: 30px;
  
 }
 
 .tasteslike {
+
   color:rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 25px;
@@ -403,6 +433,7 @@ margin-right: 100px;
 }
 
 .strawberries {
+
   color:rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 25px;
@@ -412,20 +443,21 @@ margin-right: 100px;
 
 
 .vbImageContainer {
+
   display: grid;
   position: relative;
   height: fit-content;
- max-width:fit-content;
-margin-left: 10px;
-margin-right: 50px;
-column-gap: 40px; 
-row-gap: 40px;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: repeat(3, minmax(0, 1fr));
-justify-items: stretch;
-align-items: stretch;
-text-align: center;
-padding: 20px;
+  max-width:fit-content;
+  margin-left: 10px;
+  margin-right: 50px;
+  column-gap: 40px; 
+  row-gap: 40px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  padding: 20px;
 
 }
 
@@ -441,9 +473,11 @@ padding: 20px;
   text-align: center;
   font-weight: bold;
   background: white;
+
 }
 
   .vbImageItem img {
+
   -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -454,6 +488,7 @@ padding: 20px;
   
 }
  .vbImageItem img:hover {
+
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
   
@@ -461,6 +496,7 @@ padding: 20px;
 
 
 .vbImageTitle {
+
   display:inline-block;
   text-align: center; 
   font-weight: bold;
@@ -473,6 +509,7 @@ padding: 20px;
 }
 
 .vbImageDetails {
+
   display:inline-block;
   font-size: 22px;
   text-align: center;
@@ -484,7 +521,9 @@ padding: 20px;
 }
 
 .vbImageDetails>span {
+
   color: black;
+
 }
 
 
@@ -501,15 +540,16 @@ padding: 20px;
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
-  border: 5px dotted rgb(218, 2, 67);
-   padding: 40px;
-   line-height: 1.4;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px dotted rgb(218, 2, 67);
+    padding: 40px;
+    line-height: 1.4;
 
 }
 
 .contactMeContainerText {
+
   position: relative;
   width: 800px;
   padding-left: 10px;
@@ -521,10 +561,12 @@ padding: 20px;
 }
 
 .contactMeContainerText>span {
+
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
   font-weight: bold;
+
 }
 
 
@@ -533,6 +575,7 @@ padding: 20px;
 label,
 input,
 textarea {
+
     width: 100%;
     box-shadow: 0 20px 40px rgba(252, 192, 210, 0.418);
 }
@@ -550,6 +593,7 @@ form {
   
 }
 form ul {
+
     list-style:none;
     margin: 0;
     padding: 0;
@@ -557,22 +601,23 @@ form ul {
 }
 
 form li {
-  padding: 0.3em;
+    padding: 0.3em;
   
 }
 label span {
-  font-family: 'La Belle Aurore', cursive;
+
+    font-family: 'La Belle Aurore', cursive;
   
     font-weight: bold;
     color: rgb(218, 2, 67);
     line-height: 45px;
     font-size: 25px;
-    
-   
-  
+ 
     
 }
+
 form input[type="submit"] {
+
     background: rgb(218, 2, 67);
     color: white;
     font-weight: bold;
@@ -582,8 +627,10 @@ form input[type="submit"] {
 }
 
 .required-star {
+
     color: rgb(218, 2, 67);
     font-size: 16px;
+
 }
 
 input,
@@ -597,6 +644,7 @@ textarea {
     font-size: 16px;
     border-radius: 3px;
     line-height: 20px;
+
 }
 
 
@@ -612,17 +660,17 @@ textarea {
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-margin-left: 100px;
-margin-right: 100px;
-border: 5px dotted rgb(218, 2, 67);
- padding: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 5px dotted rgb(218, 2, 67);
+  padding: 40px;
 
 }
 
 
 .portfolioHeadline {
+
   position: relative;
-  
   left: 10px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
@@ -632,6 +680,7 @@ border: 5px dotted rgb(218, 2, 67);
 }
 
 .portfolioText {
+
   position: relative;
   left: 10px;
   top: 40px;
@@ -643,25 +692,26 @@ border: 5px dotted rgb(218, 2, 67);
 
 
 .layoutContainer {
+
   top: 40px;
   display: grid;
   position: relative;
   height: fit-content;
- max-width:fit-content;
- margin-left: 10px;
-
-column-gap: 50px; 
-row-gap: 50px;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-justify-items: stretch;
-align-items: stretch;
-text-align: center;
+  max-width:fit-content;
+  margin-left: 10px;
+  column-gap: 50px; 
+  row-gap: 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: stretch;
+  align-items: stretch;
+  text-align: center;
 
 
 }
 
 .layoutTitle {
+
   display:inline-block;
   text-align: center; 
   font-weight: bold;
@@ -692,14 +742,17 @@ text-align: center;
 }
 
 iframe {
+
   width: 450;
   height: 300;
   padding: 10px;
+
 }
 
 
 
 #line {
+
   border-top: 3px solid rgb(218, 2, 67);
   position: relative;
   margin-left: 10px;
@@ -709,6 +762,7 @@ iframe {
 }
 
 footer {
+
   color: rgb(245, 48, 74);
   font-family: 'Amatic SC';
   text-align: center;
