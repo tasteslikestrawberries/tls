@@ -1,3 +1,9 @@
+
+body {
+  width:auto;
+  margin:0;
+}
+
 a:link, a:active, a:hover, a:visited {
 
  color: black;
@@ -22,7 +28,6 @@ a>span {color:rgb(218, 2, 67)}
   margin-right: 10px;
   margin-left: 0px;
   margin-top: -50px;
-  width: 1500px;
   height: 570px;
   line-height: 1.4;
  
@@ -257,10 +262,10 @@ a>span {color:rgb(218, 2, 67)}
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 75px;
+    top: 68px;
     height: 490px;
     width: 100%;
-    margin:0;
+    padding: 50px;
     z-index: 50;
     font-family: arial;
     font-size: 40px;
