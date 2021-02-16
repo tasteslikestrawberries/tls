@@ -263,7 +263,7 @@ a>span {color:rgb(218, 2, 67)}
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
     top: 68px;
-    height: 490px;
+    height: 390px;
     width: 100%;
     padding: 50px;
     z-index: 50;
@@ -306,7 +306,7 @@ a>span {color:rgb(218, 2, 67)}
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
-top: -25px;
+top: -70px;
 
 }
 
