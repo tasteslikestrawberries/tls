@@ -1,7 +1,8 @@
 
 body {
-  width:auto;
   margin:0;
+  width: 1500;
+  box-sizing: border-box;
 }
 
 a:link, a:active, a:hover, a:visited {
@@ -25,25 +26,22 @@ a>span {color:rgb(218, 2, 67)}
   text-align: center;
   font-size: 15px;
   font-family: 'Nanum Gothic', sans-serif;
-  margin-right: 10px;
-  margin-left: 0px;
-  margin-top: -50px;
   height: 570px;
   line-height: 1.4;
- 
+  margin:0;
   
 }
 
 
 #headline {
 
-  position: relative;
-  top: 70px;
-  left: 120px;
+  position: absolute;
+  top: 50px;
+  left: 470px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
-  
+  margin:0;
 }
 
 #headline>span {
@@ -60,12 +58,11 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 20px;
   color: #000000; 
   text-align:justify;
-  padding-top: 90px;
-  padding-bottom: 100px;
   left: 510px;
-  top: 20px;
+  top: 100px;
   width: 700px;
   height: 400px;
+  margin:0;
 
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -118,11 +115,11 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 45px;
   color: #000000;
   text-align:justify;
-  top: 230px;
+  top: 300px;
   left: 550px;
-  width: 700px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  margin:0;
   animation: fadeIn ease 3s;
 
     -webkit-animation: fadeIn ease 3s;
@@ -161,11 +158,13 @@ a>span {color:rgb(218, 2, 67)}
 #signature{
 
   position: relative;
-  top: -230px;
-  left: 240px;
+  top: -40px;
+  left: 900px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
+  width: fit-content;
+  margin:0;
 
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -200,29 +199,17 @@ a>span {color:rgb(218, 2, 67)}
   
 } 
 
-.socialNetworks {
 
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  width: 45px;
-  height: 45px;
-  left: 100px;
-  top: 20px;
-  z-index: 40;
-  
-}
-
-  
   /*MENU BUTTON*/
 
   #menu {
 
     cursor: pointer;
     display: inline-block;
-    position: relative;
-    top: 82px;
-    left: 200px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    margin:0;
     z-index: 900;
   
     }
@@ -263,8 +250,8 @@ a>span {color:rgb(218, 2, 67)}
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 140px;
-    height: 320px;
+    top: 120px;
+    height: 340px;
     width: 100%;
     padding: 50px;
     z-index: 50;
@@ -273,7 +260,7 @@ a>span {color:rgb(218, 2, 67)}
     color: black;
     animation: fadeIn ease 0.5s;
     text-align: center;
-     
+    margin:0;
   
     }
 
@@ -287,14 +274,14 @@ a>span {color:rgb(218, 2, 67)}
   
 .dropdown-content ul { 
 
-    margin: 200px auto 0; 
-    padding: 0; 
-    list-style: none; 
-    display: table;
-    text-align: center;
-    text-decoration: none;
-    animation: fadeIn ease 2s;
-  
+   position: relative;
+   list-style: none; 
+   display: table;
+   text-align: center;
+   text-decoration: none;
+   animation: fadeIn ease 2s;
+   top: 65px;
+   
 }
 
     @keyframes fadeIn {
@@ -307,7 +294,7 @@ a>span {color:rgb(218, 2, 67)}
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
-top: -100px;
+
 
 }
 
@@ -352,17 +339,18 @@ ul {
 .diaryContainer {
 
   position: relative;
-  width: 1200;
+  width: 1200px;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
+  left: 100px;
+  right: 100px;
+  margin:0;
 
   }
 
@@ -370,7 +358,6 @@ ul {
 .diaryContainerText {
 
   position: relative;
-  width: 800px;
   padding-left: 10px;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -404,11 +391,12 @@ background-image: url('');
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-margin-left: 100px;
-margin-right: 100px;
 border: 5px dotted rgb(218, 2, 67);
-padding: 40px;
+left: 100px;
+right: 100px;
+margin:0;
 width: 1200px;
+padding: 40px;
 line-height: 1.4;
 
 }
@@ -425,7 +413,7 @@ line-height: 1.4;
 .vbContainerText {
 
   width: 1100px;
-  margin-left: 30px;
+  padding-left: 30px;
  
 }
 
@@ -539,15 +527,16 @@ line-height: 1.4;
 .contactMeContainer {
   
     position: relative;
-    width: 1200;
     height: fit-content;
     background-image: url('');
     background-repeat: no-repeat;
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-    margin-left: 100px;
-    margin-right: 100px;
+    left: 100px;
+    right: 100px;
+    margin:0;
+    width: 1200px;
     border: 5px dotted rgb(218, 2, 67);
     padding: 40px;
     line-height: 1.4;
@@ -659,15 +648,16 @@ textarea {
 .portfolioContainer {
   
   position: relative;
-  width: 1200;
+  width: 1200px;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
+  left: 100px;
+  right: 100px;
+  margin:0;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
 
@@ -682,6 +672,7 @@ textarea {
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
   font-weight: bold;
+  margin:0;
 
 }
 
@@ -767,16 +758,5 @@ iframe {
   
 }
 
-footer {
-
-  color: rgb(245, 48, 74);
-  font-family: 'Amatic SC';
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  z-index: 20;
-  text-align: center;
-
-}
 
 
