@@ -1,15 +1,12 @@
-
-a:link, a:active, a:hover, a:visited {
-
- color: black;
- text-decoration: none;
-
+a:link, a:active, a:hover, a:visited
+{
+  color: black;
+    text-decoration: none;
 }
 
 a>span {color:rgb(218, 2, 67)}
 
 .headContainer {
-
   position: relative;
   background-image: url('/assets/head.jpg');
   background-size:30%;
@@ -20,23 +17,23 @@ a>span {color:rgb(218, 2, 67)}
   text-align: center;
   font-size: 15px;
   font-family: 'Nanum Gothic', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -50px;
+  width: 1500px;
   height: 570px;
   line-height: 1.4;
-  margin:0;
+ 
   
 }
 
 
 #headline {
-
-  position: relative;
-  top: -30px;
-  left: 0px;
-  padding: 50px;
+	
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
-  margin:0;
+  
 }
 
 #headline>span {
@@ -51,13 +48,13 @@ a>span {color:rgb(218, 2, 67)}
   position: relative;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 20px;
-  color: #000000; 
+  color: #000000;
   text-align:justify;
-  left: 500px;
-  top: -20px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  left: 465px;
   width: 700px;
   height: 400px;
-  margin:0;
 
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -89,17 +86,16 @@ a>span {color:rgb(218, 2, 67)}
   0% {opacity:0;}
   100% {opacity:1;}
 
+
+
   }
 
   #headlineText>span {
-
-  color:rgb(218, 2, 67);
-
+    color:rgb(218, 2, 67);
   }
   
 
 #headlineTextPages>span {
-
   color:rgb(218, 2, 67)
   
 }
@@ -110,13 +106,12 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 45px;
   color: #000000;
   text-align:justify;
-  top: 100px;
+  top: 230px;
   left: 550px;
+  width: 700px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  margin:0;
   animation: fadeIn ease 3s;
-
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
@@ -153,13 +148,11 @@ a>span {color:rgb(218, 2, 67)}
 #signature{
 
   position: relative;
-  top: -150px;
-  left: 860px;
+  bottom: 250px;
+  left: 240px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 45px;
-  width: fit-content;
-  margin:0;
 
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -167,7 +160,6 @@ a>span {color:rgb(218, 2, 67)}
   -o-animation: fadeIn ease 4s;
   -ms-animation: fadeIn ease 4s;
   }
-
   @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -191,31 +183,33 @@ a>span {color:rgb(218, 2, 67)}
   @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+
+
   
 } 
 
 
+  
   /*MENU BUTTON*/
 
   #menu {
 
-    cursor: pointer;
-    position: relative;
-    top: 80px;
-    left: 250px;
-    margin:0;
-    z-index: 900;
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   left: 250px;
+   top: 19px;
+   z-index: 900;
   
-    }
+
+   }
 
     .bar1, .bar2, .bar3 {
-
       width: 35px;
       height: 6px;
       background-color: rgb(218, 2, 67);
       margin: 6px 0;
       transition: 0.4s;
-
     }
     
     /* Rotate first bar */
@@ -244,81 +238,74 @@ a>span {color:rgb(218, 2, 67)}
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 150px;
-    height: 350px;
-    width: 1200px;
-    padding: 50px;
+    top: 75px;
+    height: 490px;
+    width: 100%;
+    
     z-index: 50;
     font-family: arial;
     font-size: 40px;
     color: black;
     animation: fadeIn ease 0.5s;
     text-align: center;
-    margin-left:100px;
+     
   
     }
-
     @keyframes fadeIn {
-
     0% {opacity:0;}
     100% {opacity:0.9;}
-
     }
 
   
 .dropdown-content ul { 
-
-   position: relative;
-   list-style: none; 
-   display: table;
-   text-align: center;
-   text-decoration: none;
-   animation: fadeIn ease 2s;
-   top: 70px;
-   
+  margin: 200px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  text-align: center;
+  text-decoration: none;
+  animation: fadeIn ease 2s;
+  
 }
-
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:0.9;}
-    }
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:0.9;}
+}
 
 .dropdown-content li { 
 
-display: table-cell; 
-position: relative; 
-padding: 35px 0;
-
+  display: table-cell; 
+  position: relative; 
+  padding: 35px 0;
+  top: -25px;
 
 }
 
 
 .dropdown-content a {
 
-color: #000000;
-text-transform: uppercase;
-text-decoration: none;
-letter-spacing: 0.15em;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
 
 }
 
 .dropdown-content a::after {    
 
-background: none repeat scroll 0 0 transparent;
-bottom: 5;
-content: "";
-height: 2.5px;
-position: absolute;
-background: #000000;
-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-width: 0;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 5;
+  content: "";
+  height: 2.5px;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 
 }
-
-
 a:hover:after { 
-width: 50%; 
-left: 23%; 
+  width: 50%; 
+  left: 23%; 
 
 }
 
@@ -328,30 +315,29 @@ ul {
 }
 }
 
+
 /*DIARY PAGE*/
 
 .diaryContainer {
-
   position: relative;
-  width: 1200px;
+  width: 1200;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
+  margin-left: 100px;
+  margin-right: 100px;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
-  left: 100px;
-  right: 100px;
-  margin:0;
-
-  }
+}
 
 
 .diaryContainerText {
 
   position: relative;
+  width: 800px;
   padding-left: 10px;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -376,22 +362,21 @@ ul {
 
 .visionBoardContainer {
 
-position: relative;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 16px;
-text-align: justify;
-background-image: url('');
+  position: relative;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  background-image: url('');
     background-repeat: no-repeat;
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-border: 5px dotted rgb(218, 2, 67);
-left: 100px;
-right: 100px;
-margin:0;
-width: 1200px;
-padding: 40px;
-line-height: 1.4;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 5px dotted rgb(218, 2, 67);
+  padding: 40px;
+  width: 1200px;
+  line-height: 1.4;
 
 }
 
@@ -407,7 +392,7 @@ line-height: 1.4;
 .vbContainerText {
 
   width: 1100px;
-  padding-left: 30px;
+  margin-left: 30px;
  
 }
 
@@ -475,6 +460,7 @@ line-height: 1.4;
   height: 200;
   
 }
+
  .vbImageItem img:hover {
 
 	-webkit-filter: grayscale(0);
@@ -521,16 +507,15 @@ line-height: 1.4;
 .contactMeContainer {
   
     position: relative;
+    width: 1200;
     height: fit-content;
     background-image: url('');
     background-repeat: no-repeat;
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-    left: 100px;
-    right: 100px;
-    margin:0;
-    width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: 5px dotted rgb(218, 2, 67);
     padding: 40px;
     line-height: 1.4;
@@ -564,7 +549,6 @@ line-height: 1.4;
 label,
 input,
 textarea {
-
     width: 100%;
     box-shadow: 0 20px 40px rgba(252, 192, 210, 0.418);
 }
@@ -590,23 +574,22 @@ form ul {
 }
 
 form li {
-    padding: 0.3em;
+  padding: 0.3em;
   
 }
 label span {
-
-    font-family: 'La Belle Aurore', cursive;
+  font-family: 'La Belle Aurore', cursive;
   
     font-weight: bold;
     color: rgb(218, 2, 67);
     line-height: 45px;
     font-size: 25px;
- 
     
+  
 }
 
-form input[type="submit"] {
 
+form input[type="submit"] {
     background: rgb(218, 2, 67);
     color: white;
     font-weight: bold;
@@ -616,10 +599,8 @@ form input[type="submit"] {
 }
 
 .required-star {
-
     color: rgb(218, 2, 67);
     font-size: 16px;
-
 }
 
 input,
@@ -633,7 +614,6 @@ textarea {
     font-size: 16px;
     border-radius: 3px;
     line-height: 20px;
-
 }
 
 
@@ -642,16 +622,15 @@ textarea {
 .portfolioContainer {
   
   position: relative;
-  width: 1200px;
+  width: 1200;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-  left: 100px;
-  right: 100px;
-  margin:0;
+  margin-left: 100px;
+  margin-right: 100px;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
 
@@ -661,12 +640,12 @@ textarea {
 .portfolioHeadline {
 
   position: relative;
+  
   left: 10px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
   font-weight: bold;
-  margin:0;
 
 }
 
