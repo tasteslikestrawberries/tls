@@ -39,7 +39,7 @@ a>span {color:rgb(218, 2, 67)}
 
   position: relative;
   top: 70px;
-  left: 50px;
+  left: 120px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
   font-size: 65px;
@@ -62,7 +62,8 @@ a>span {color:rgb(218, 2, 67)}
   text-align:justify;
   padding-top: 90px;
   padding-bottom: 100px;
-  left: 465px;
+  left: 510px;
+  top: 20px;
   width: 700px;
   height: 400px;
 
@@ -160,7 +161,7 @@ a>span {color:rgb(218, 2, 67)}
 #signature{
 
   position: relative;
-  bottom: 250px;
+  top: -230px;
   left: 240px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
@@ -220,8 +221,8 @@ a>span {color:rgb(218, 2, 67)}
     cursor: pointer;
     display: inline-block;
     position: relative;
-    top: 19px;
-    left: 150px;
+    top: 82px;
+    left: 200px;
     z-index: 900;
   
     }
@@ -262,8 +263,8 @@ a>span {color:rgb(218, 2, 67)}
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 68px;
-    height: 390px;
+    top: 140px;
+    height: 320px;
     width: 100%;
     padding: 50px;
     z-index: 50;
@@ -306,7 +307,7 @@ a>span {color:rgb(218, 2, 67)}
 display: table-cell; 
 position: relative; 
 padding: 35px 0;
-top: -70px;
+top: -100px;
 
 }
 
