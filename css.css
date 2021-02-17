@@ -1,8 +1,9 @@
-
-body {
-  margin:0;
-  width: 1500;
-  box-sizing: border-box;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 a:link, a:active, a:hover, a:visited {
@@ -36,7 +37,8 @@ a>span {color:rgb(218, 2, 67)}
 #headline {
 
   position: absolute;
-  top: 50px;
+  top: 10px;
+ 
   left: 470px;
   color: rgb(0, 0, 0);
   font-family: 'La Belle Aurore', cursive;
@@ -58,8 +60,8 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 20px;
   color: #000000; 
   text-align:justify;
-  left: 510px;
-  top: 100px;
+  left: 500px;
+  top: 180px;
   width: 700px;
   height: 400px;
   margin:0;
@@ -115,7 +117,7 @@ a>span {color:rgb(218, 2, 67)}
   font-size: 45px;
   color: #000000;
   text-align:justify;
-  top: 300px;
+  top: 270px;
   left: 550px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -158,7 +160,7 @@ a>span {color:rgb(218, 2, 67)}
 #signature{
 
   position: relative;
-  top: -40px;
+  top: 50px;
   left: 900px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
@@ -206,7 +208,7 @@ a>span {color:rgb(218, 2, 67)}
 
     cursor: pointer;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 70px;
     left: 250px;
     margin:0;
