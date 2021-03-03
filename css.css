@@ -326,11 +326,6 @@ ul {
   position: relative;
   width: 1400;
   height: fit-content;
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-position-x: 900px;
-  background-position-y: -170px;
-  background-size: 113%;
   margin: auto;
   border: 5px dotted rgb(218, 2, 67);
   padding: 50px;
@@ -373,11 +368,6 @@ ul {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 16px;
   text-align: justify;
-  background-image: url('');
-    background-repeat: no-repeat;
-    background-position-x: 900px;
-    background-position-y: -170px;
-    background-size: 113%;
     margin: auto;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
@@ -516,11 +506,6 @@ ul {
     position: relative;
     width: 1400px;
     height: fit-content;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-position-x: 900px;
-    background-position-y: -170px;
-    background-size: 113%;
     margin: auto;
     border: 5px dotted rgb(218, 2, 67);
     padding: 40px;
@@ -630,11 +615,6 @@ textarea {
   position: relative;
   width: 1400px;
   height: fit-content;
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-position-x: 900px;
-  background-position-y: -170px;
-  background-size: 113%;
   margin:auto;
   border: 5px dotted rgb(218, 2, 67);
   padding: 50px;
