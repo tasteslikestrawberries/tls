@@ -21,10 +21,8 @@ a>span {color:rgb(218, 2, 67)}
   text-align: center;
   font-size: 15px;
   font-family: 'Nanum Gothic', sans-serif;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: -50px;
-  width: 1500px;
+ margin: 0;
+  width: 1400px;
   height: 570px;
   line-height: 1.4;
   
@@ -214,6 +212,7 @@ a>span {color:rgb(218, 2, 67)}
       height: 6px;
       background-color: rgb(218, 2, 67);
       margin: 6px 0;
+      border-radius: 10px;
       transition: 0.4s;
     }
     
@@ -243,7 +242,7 @@ a>span {color:rgb(218, 2, 67)}
     position:fixed;
     background-color: rgb(245, 48, 74);
     opacity: 0.9;
-    top: 120px;
+    top: 165px;
     height: 440px;
     width: 100%;
     z-index: 50;
@@ -252,6 +251,7 @@ a>span {color:rgb(218, 2, 67)}
     color: black;
     animation: fadeIn ease 0.5s;
     text-align: center;
+    margin:0;
      
   
     }
@@ -324,32 +324,35 @@ ul {
 
 .diaryContainer {
   position: relative;
-  width: 1200;
+  width: 1400;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: auto;
   border: 5px dotted rgb(218, 2, 67);
-  padding: 40px;
+  padding: 50px;
 }
 
 
 .diaryContainerText {
 
   position: relative;
-  width: 800px;
-  padding-left: 10px;
+  width: 1000px;
+  margin: auto;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-family: 'Nanum Gothic', sans-serif;
   text-align: justify;
-  line-height: 1.4;
+  line-height: 1.5;
 
   
+}
+
+.diaryContainerText a {
+  color:rgb(218, 2, 67);
 }
 
 .diaryContainerText>span {
@@ -375,11 +378,10 @@ ul {
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
+    margin: auto;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
-  width: 1200px;
+  width: 1400px;
   line-height: 1.4;
 
 }
@@ -390,13 +392,13 @@ ul {
   font-family: 'La Belle Aurore', cursive;
   font-size: 50px;
   font-weight: bold;
-
+  
 }
 
 .vbContainerText {
 
   width: 1100px;
-  margin-left: 30px;
+  margin: auto;
  
 }
 
@@ -435,12 +437,12 @@ ul {
   align-items: stretch;
   text-align: center;
   padding: 20px;
-
+  margin: auto;
 }
 
 .vbImageItem {
 
-  border: 1px solid black;
+  border: 1px solid rgb(218, 2, 67);
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -450,6 +452,7 @@ ul {
   text-align: center;
   font-weight: bold;
   background: white;
+  
 
 }
 
@@ -511,15 +514,14 @@ ul {
 .contactMeContainer {
   
     position: relative;
-    width: 1200;
+    width: 1400px;
     height: fit-content;
     background-image: url('');
     background-repeat: no-repeat;
     background-position-x: 900px;
     background-position-y: -170px;
     background-size: 113%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: auto;
     border: 5px dotted rgb(218, 2, 67);
     padding: 40px;
     line-height: 1.4;
@@ -530,7 +532,7 @@ ul {
 
   position: relative;
   width: 800px;
-  padding-left: 10px;
+  margin: auto;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-family: 'Nanum Gothic', sans-serif;
@@ -626,21 +628,43 @@ textarea {
 .portfolioContainer {
   
   position: relative;
-  width: 1200;
+  width: 1400px;
   height: fit-content;
   background-image: url('');
   background-repeat: no-repeat;
   background-position-x: 900px;
   background-position-y: -170px;
   background-size: 113%;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin:auto;
   border: 5px dotted rgb(218, 2, 67);
-  padding: 40px;
+  padding: 50px;
 
 }
 
 
+.portfolioText {
+
+  position: relative;
+  left: 10px;
+  top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+ padding-bottom: 80px;
+}
+
+
+.portfolioContainer img {
+  height: 350px;
+  opacity: 50%;
+}
+
+
+.portfolioContainer img:hover {
+  cursor: pointer;
+  opacity: 100%;
+
+}
 .portfolioHeadline {
 
   position: relative;
@@ -653,87 +677,16 @@ textarea {
 
 }
 
-.portfolioText {
-
-  position: relative;
-  left: 10px;
-  top: 40px;
-  color: rgb(0, 0, 0);
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 16px;
-
-}
-
-
-.layoutContainer {
-
-  top: 40px;
-  display: grid;
-  position: relative;
-  height: fit-content;
-  max-width:fit-content;
-  margin-left: 10px;
-  column-gap: 50px; 
-  row-gap: 50px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  justify-items: stretch;
-  align-items: stretch;
-  text-align: center;
-
-
-}
-
-.layoutTitle {
-
-  display:inline-block;
-  text-align: center; 
-  font-weight: bold;
-  font-size: 30px;
-  color:rgb(0, 0, 0);
-  font-family: 'La Belle Aurore', cursive;
-  text-transform: lowercase;
-
- 
-}
-
-.layoutItem {
-
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  width: 450px;
-  height: 300px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  border: 1px solid rgb(0, 0, 0);
-  flex-direction: column;
-  justify-content:center;
-  text-align: center;
-  font-weight: bold;
-  
-}
-
-iframe {
-
-  width: 450;
-  height: 300;
-  padding: 10px;
-
-}
 
 
 
-#line {
 
-  border-top: 3px solid rgb(218, 2, 67);
-  position: relative;
-  margin-left: 10px;
-  top: 10px;
-  width:600px;
-  
-}
+
+
+
+
+
+
 
 
 
