@@ -200,8 +200,8 @@ a>span {color:rgb(218, 2, 67)}
    cursor: pointer;
    display: inline-block;
    position: relative;
-   left: 250px;
-   top: 59px;
+   left: 235px;
+   top: 39px;
    z-index: 900;
   
 
@@ -232,6 +232,8 @@ a>span {color:rgb(218, 2, 67)}
       -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
       transform: rotate(45deg) translate(-8px, -8px) ;
     }
+
+
 
   
   /*DROPDOWN CONTENT*/
@@ -335,7 +337,7 @@ ul {
 .diaryContainerText {
 
   position: relative;
-  width: 1000px;
+  width: 1100px;
   margin: auto;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -354,7 +356,7 @@ ul {
 
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
  
 }
@@ -499,9 +501,9 @@ ul {
 
 
 
-/*contact ME PAGE*/
+/*about ME PAGE*/
 
-.contactMeContainer {
+.aboutMeContainer {
   
     position: relative;
     width: 1400px;
@@ -513,29 +515,39 @@ ul {
 
 }
 
-.contactMeContainerText {
+
+
+.aboutMeContainerText {
 
   position: relative;
-  width: 800px;
+  width: 1100px;
   margin: auto;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-family: 'Nanum Gothic', sans-serif;
   text-align: justify;
 
+
 }
 
-.contactMeContainerText>span {
+.aboutMeContainerText>span {
 
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 
 }
 
+#aboutSignature{
+  
+  position: relative;
+  left: 650px;
+  color: rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 45px;}
 
-/*CONTACT FORM*/
+/*about FORM*/
 
 label,
 input,
@@ -547,10 +559,6 @@ textarea {
 form {
   
   background-color: #ffffff;
-  padding-top: 40 40 40 40;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  
   border-radius: 5px;
   overflow: hidden;
   width: 450px;
@@ -652,10 +660,30 @@ textarea {
   left: 10px;
   color: rgb(218, 2, 67);
   font-family: 'La Belle Aurore', cursive;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 
 }
+
+ /*
+    footer {
+    
+    
+      position: absolute;
+       top:35x;
+       left:50px;
+     }
+           <footer>        
+
+            
+          <a href="https://dribbble.com/tasteslikestrawberries" target='_blank'><img alt="DribbbleIcon" src="/assets/dribbble.png"></a>&nbsp; &nbsp; &nbsp;
+          <a href="https://github.com/tasteslikestrawberries" target='_blank'><img alt="GitHubIcon" src="/assets/GitHub-Mark-32px.png"></a> 
+        
+        
+        </footer>
+
+     */
+
 
 
 
