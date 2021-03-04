@@ -539,13 +539,11 @@ ul {
 
 }
 
-#aboutSignature{
-  
-  position: relative;
-  left: 650px;
-  color: rgb(218, 2, 67);
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 45px;}
+#me {
+  float:left;
+  padding-right:40px;
+  padding-bottom:30px;
+}
 
 /*about FORM*/
 
