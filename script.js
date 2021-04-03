@@ -1,9 +1,9 @@
-var menuOpen = false; // boolean
+let menuOpen = false; // boolean
 
-var menuButton = document.getElementById('menu');
+let menuButton = document.getElementById('menu');
 menuButton.addEventListener("click", dropdown);
 
-var dropdownMenu = document.getElementsByClassName('dropdown-content')[0];
+let dropdownMenu = document.getElementsByClassName('dropdown-content')[0];
 dropdownMenu.addEventListener("click", onDropdownMenuClickHandler)
 
 function dropdown(event) {
