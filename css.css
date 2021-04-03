@@ -22,7 +22,7 @@ a>span {color:rgb(218, 2, 67)}
   text-align: center;
   font-size: 15px;
   font-family: 'Nanum Gothic', sans-serif;
- margin: 0;
+  margin: auto;
   width: 1400px;
   height: 570px;
   line-height: 1.4;
@@ -30,34 +30,18 @@ a>span {color:rgb(218, 2, 67)}
 }
 
 
-#headline {
-  position: relative;
-  color: rgb(0, 0, 0);
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 65px;
-  top: 50px;
-  left: 80px;
-}
-
-#headline>span {
-
-  color: rgb(218, 2, 67);
-
-}
-
-#headlineText {
+.headContainerText {
 
   position: relative;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 20px;
   color: #000000;
-  text-align:justify;
   padding-top: 100px;
   padding-bottom: 100px;
   width: 700px;
   height: 400px;
   left: 500px;
-
+  text-align:justify;
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   -moz-animation: fadeIn ease 3s;
@@ -89,61 +73,6 @@ a>span {color:rgb(218, 2, 67)}
   100% {opacity:1;}
 
   }
-
-  #headlineText>span {
-    color:rgb(218, 2, 67);
-  }
-  
-
-#headlineTextPages>span {
-  color:rgb(218, 2, 67)
-  
-}
-
-#headlineTextPages {
-
-  position: relative;
-  font-size: 45px;
-  color: #000000;
-  text-align:justify;
-  top: 230px;
-  left: 550px;
-  width: 700px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-    }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  
-   
-  }
-  
 
 #signature{
   
@@ -187,6 +116,71 @@ a>span {color:rgb(218, 2, 67)}
 
   
 } 
+
+#headline {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 65px;
+  top: 50px;
+
+}
+
+#headline>span {
+
+  color: rgb(218, 2, 67);
+
+}
+
+.headlineTextPages {
+
+  position: relative;
+  margin: auto;
+  font-size: 45px;
+  color: #000000;
+  top: 230px;
+  width: 700px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+   
+  }
+  
+
+.headlineTextPages>span {
+color:rgb(218, 2, 67)
+
+}
+
 
   
   /*MENU BUTTON*/
@@ -349,6 +343,56 @@ section > h2 {
  
 }
 
+/*PORTFOLIO PAGE*/
+
+.portfolioContainer {
+  
+  position: relative;
+  width: 1400px;
+  height: fit-content;
+  margin:auto;
+  border: 5px dotted rgb(218, 2, 67);
+  padding: 40px;
+
+}
+
+
+.portfolioText {
+
+  position: relative;
+  left: 10px;
+  top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+ padding-bottom: 80px;
+}
+
+
+.portfolioContainer img {
+  height: 350px;
+  opacity: 50%;
+}
+
+
+.portfolioContainer img:hover {
+  cursor: pointer;
+  opacity: 100%;
+
+}
+.portfolioHeadline {
+
+  position: relative;
+  
+  left: 10px;
+  color: rgb(218, 2, 67);
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+
 
 /*VISION BOARD PAGE*/
 
@@ -358,7 +402,7 @@ section > h2 {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 16px;
   text-align: justify;
-    margin: auto;
+  margin: auto;
   border: 5px dotted rgb(218, 2, 67);
   padding: 40px;
   width: 1400px;
@@ -572,54 +616,6 @@ textarea {
 }
 
 
-/*PORTFOLIO PAGE*/
-
-.portfolioContainer {
-  
-  position: relative;
-  width: 1400px;
-  height: fit-content;
-  margin:auto;
-  border: 5px dotted rgb(218, 2, 67);
-  padding: 40px;
-
-}
-
-
-.portfolioText {
-
-  position: relative;
-  left: 10px;
-  top: 40px;
-  color: rgb(0, 0, 0);
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 16px;
- padding-bottom: 80px;
-}
-
-
-.portfolioContainer img {
-  height: 350px;
-  opacity: 50%;
-}
-
-
-.portfolioContainer img:hover {
-  cursor: pointer;
-  opacity: 100%;
-
-}
-.portfolioHeadline {
-
-  position: relative;
-  
-  left: 10px;
-  color: rgb(218, 2, 67);
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 40px;
-  font-weight: bold;
-
-}
 
 
 
