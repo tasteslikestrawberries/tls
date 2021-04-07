@@ -357,15 +357,19 @@ section > h2 {
 }
 
 
-.portfolioText {
+.portfolioDownload{
 
   position: relative;
   left: 10px;
   top: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(218, 2, 67);
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 16px;
  padding-bottom: 80px;
+}
+
+.portfolioDownload a{
+  color: rgb(218, 2, 67);
 }
 
 
